@@ -105,6 +105,133 @@ KyrieViolinoI = {
 	}
 }
 
+GloriaViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoGloria
+		c16-!\fE g-! a-! h-! c-! g-! a-! h-! c-! h-! c-! d-!
+		e-! h-! c-! d-! e-! h-! c-! d-! e-! h-! c-! d-!
+		e-! g-! c-! d-! e-! h-! c-! d-! e-! h-! c-! d-!
+		e4-! e,-! r8 r16 e'-!
+		g8-!\fp e(-. c-. g-. e-. c-.) %5
+		f4-! r16 f-!\f g-! a-! h-! c-! d-! e-!
+		f8-!\fp d(-. h-. g-. f-. d-.)
+		e4-! r16 g-!\f a-! h-! c-! d-! e-! f-!
+		g a g f e f e d c d c b
+		a c h a h d c h c8 e16 g %10
+		\appoggiatura g f8 e16 d c4 h\trill
+		c r r
+		e-!\sf e,-!\p e-!
+		d'-!\sfE d,-!\pE d-!
+		d'-!\sf d,-!\p d-! %15
+		c'-!\sf c,-!\pE c-!
+		c'-!\sf c,-!\p c-!
+		h'-!\sf h,-!\p h-!
+		h''-!\f r r
+		a8.(\p h16) c8-! c-! c-! c-! %20
+		h2.-!
+		a8.( h16) c8-! c-! c-! c-!
+		h16\f g g g g g g g g g g g
+		g g g g g g g g g g g g
+		a a a a g g g g fis fis fis fis %25
+		g4-! g,(\p a)
+		b2.-!
+		r4 c'( b)
+		a2.-!
+		r4 f( es) %30
+		d2.~-!
+		d8\f d4 d d8
+		a'4-! a,-! r
+		r d-!\p d-!
+		d( g f!) %35
+		e2.
+		r4 f-! f~
+		f8. g16 e4-! e,-!
+		e'8. f16 d4-! d,-!
+		R2. %40
+		r8 a''-!\f g-! f-! e-! d-!
+		cis-! b-! a-! g-! f-! e-!
+		d-! d'-!\ff e-! f-! g-! gis-!
+		a4-! r r
+		r e8.\p f16 g!4 %45
+		r f8. g16 a4
+		r a,8. b16 c4
+		r b8. c16 d4
+		r8 r16 g,-!\f a4(\p b)
+		r8 r16 a-!\f b4(\p c) %50
+		R2.
+		r8 e,-!\f f-! e-! f-! g-!
+		a-! f'-! b,-! f'-! c-! f-!
+		d-! b'-! a-! c-! b-! d-!
+		a,-! f'-! b,-! f'-! c-! f-! %55
+		d-! b'-! a-! c-! b-! d-!
+		a,-! f'-! b,-! f'-! c-! f-!
+		d-! b'-! a-! c-! b-! d-!
+		c4-! r8 a-! c-! a-!
+		b4-! r8 g-! b-! g-! %60
+		a4-! r8 f-! a-! f-!
+		g4-! r8 e-! g-! e-!
+		f-! a4 a a8~
+		a a4 a a8-!
+		g b16 g f4-! e-! %65
+		f8-! f4\p f f8(
+		e)\f e4 e e8(
+		f8) f4\p f f8(
+		e)\f e4 e e8(
+		b')\ff b4 b b8( %70
+		a) a4 a a8(
+		c!) c4 c c8(
+		h!) h4 h8 a[ a]
+		a a a a gis gis
+		a4 r a\p( %75
+		gis) r d(
+		cis) r g'(
+		f!) r f(
+		d8.)\fp c16 h8-! c-! d-! h-!
+		e8.\fp d16 c8-! d-! e-! c-! %80
+		f-! f-! f-! e( d c)
+		c4\trill h8 h,16 c d e f d
+		c-!\f g-! a-! h-! c-! g-! a-! h-! c-! h-! c-! d-!
+		e-! h-! c-! d-! e-! h-! c-! d-! e-! h-! c-! d-!
+		e-! g-! c-! d-! e-! h-! c-! d-! e-! h-! c-! d-! %85
+		e4-! e,-! r8 r16 e'-!
+		g8-!\fpE e(-. c-. g-. e-. c-.)
+		f4-! r16 f-!\fE g-! a-! h-! c-! d-! e-!
+		f8-!\fpE d(-. h-. g-. f-. d-.)
+		e4-! r8 e'16( f) \appoggiatura a g8 f16 e %90
+		d4-! r d(
+		e) r e(
+		f) r e~
+		e^\critnote d8. e16 d8. e16
+		d4-! r d( %95
+		e) r e(
+		f) r e~
+		e d-! r8 r16 <g, g,>-!
+		q4-!\sf a8-!\p g-! a-! h-!
+		c-! h-! c-! d-! e8. <e, g,>16 %100
+		q4-!\sf f8-!\p e-! f-! g-!
+		a-! g-! a-! h-! c8. e,16
+		<d g,>8-!\f \noBeam d'-!\p d-! d-! f( d)
+		r c-! c-! c-! e( c)
+		d( f) c([ e)] h( d) %105
+		c16-!\f c' c c c c c c c c c c
+		c c c c c c c c c c c c
+		c c c c c c c c c c c c
+		c c c c c c c c c c c c
+		h!4-! r8 h-! d-! h-! %110
+		c4-! r8 e,-! g-! e-!
+		h4-! r8 h-! d-! h-!
+		c4-! r8 c-! e-! c-!
+		d-! f4 f f8-!
+		e-! c'4 c c8-! %115
+		d d c c h h
+		c4-! g,16-! a-! h-! c-! d-! e-! f-! d-!
+		<c e>4-! g16-! a-! h-! c-! d-! e-! f-! d-!
+		<c e>4-! <g c e> q
+		q2 r4\fermata \bar "|." %120 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

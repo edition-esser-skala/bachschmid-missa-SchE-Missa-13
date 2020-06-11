@@ -234,6 +234,8 @@ ppE  = \dynScript "pp"  ##t
 
 sf   = \dynScript "sf"  ##f
 sfE  = \dynScript "sf"  ##t
+sfp  = \dynScript "sfp" ##f
+sfpE = \dynScript "sfp" ##t
 sfz  = \dynScript "sfz" ##f
 sfzE = \dynScript "sfz" ##t
 fp   = \dynScript "fp"  ##f
@@ -591,6 +593,7 @@ tocSection = #(define-music-function
 )
 
 tempoKyrie = \tempoMarkup "Andante con moto"
+tempoGloria = \tempoMarkup "Allegro moderato"
 
 
 

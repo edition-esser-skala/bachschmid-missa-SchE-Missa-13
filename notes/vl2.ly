@@ -104,3 +104,130 @@ KyrieViolinoII = {
 		c c, r\fermata \bar "|." %94 finis
 	}
 }
+
+GloriaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoGloria
+		R2.
+		c16-!\fE g-! a-! h-! c-! g-! a-! h-! c-! g-! a-! h-!
+		c-! g'-! a-! h-! c-! g-! a-! h-! c-! g-! a-! h-!
+		c4-! c,-! r
+		e-!\p e-! e-! %5
+		a,-! r r
+		h-! h-! h-!
+		c-! r r
+		g''16\fE a g f e f e d c d c b
+		a c h a h d c h c8 e %10
+		a, g16 f e4 d
+		c8-!\ff e-! f-! g-! a-! h-!
+		c4-!\sf c,-!\p c-!
+		h'-!\sfE h,-!\pE h-!
+		h'-!\sf h,-!\p h-! %15
+		a'-!\sf a,-!\pE a-!
+		a'-!\sf a,-!\p a-!
+		g'-!\sf g,-!\p g-!
+		g''-!\f r r
+		fis8.(\p g16) a8-! a-! a-! a-! %20
+		g2.-!
+		fis8.( g16) a8-! a-! a-! a-!
+		g\f-! d-! d-! h-! e-! c-!
+		d-! h-! e-! c-! d-! h-!
+		c16 c c c h h h h a a a a %25
+		g4-! r r
+		r g'(\p f!)
+		e2.-!
+		r4 a,( c)
+		f-! f,2 %30
+		b,4-! b'( a)
+		gis8\f gis4 gis gis8
+		r4 a-!\p a-!
+		a( d) c!
+		b2.~-! %35
+		b4 c( b)
+		a2.-!
+		g4-! g'2-!\sf
+		f,4-!\p a'2-!\sf
+		R2. %40
+		r8 d,,-!\f e-! f-! g-! gis-!
+		a-! g'-! f-! e-! d-! cis-!
+		d-! a-!\ff g-! f-! e-! d-!
+		cis4-! r r
+		r cis'8.\p d16 e4 %45
+		r d8. e16 f4
+		r fis,8. g16 a4
+		r g8. a16 b4
+		r8 r16 e,-!\f f4(\p g)
+		r8 r16 f-!\f g4(\p a) %50
+		R2.
+		r8 c,-!\f d-! c-! d-! e-!
+		f16 f' f f f f f f f f f f
+		f f f f f f f f f f f f
+		f f f f f f f f f f f f %55
+		f f f f f f f f f f f f
+		f f f f f f f f f f f f
+		f f f f f f f f f f f f
+		f8. a16 f4-! f,-!
+		e'8. g16 e4-! e,-! %60
+		c'8. f16 c4-! a,-!
+		b'8. g'16 b,4-! g,-!
+		a8-! f''4 f f8~
+		f f4 f f8-!
+		d8. b16 a4-! g-! %65
+		f8-! a4\p a a8(
+		b)\f b4 b b8(
+		a) a4\p a a8(
+		b)\f b4 b b8(
+		g')\ff g4 g g8( %70
+		f) f4 f f8(
+		a) a4 a a8(
+		gis) gis4 gis8 a[ a]
+		f f c c h h
+		a4 r c(\p %75
+		h) r h(
+		e,) r cis'(
+		d) r a(
+		f8.)\fp e16 d8-! e-! f-! d-!
+		g8.\fp f16 e8-! f-! g-! e-! %80
+		a-! a-! a-! g( f e)
+		e4\trill d8 g,16 a h c d h
+		<g e'>4\f r r
+		c16-! g-! a-! h-! c-! g-! a-! h-! c-! g-! a-! h-!
+		c-! g'-! a-! h-! c-! g-! a-! h-! c-! g-! a-! h-! %85
+		c4-! c,-! r
+		e-!\p e-! e-!
+		a,-! r r
+		h-! h-! h-!
+		c( g) r %90
+		h'-! h,-! h'(
+		c) c,-! c'(
+		d8.) h16 g4 c~
+		c h8. c16 h8. c16
+		h4-! h,-! h'( %95
+		c) c,-! c'(
+		d8.) h16 g4 c~
+		c h-! r8 r16 <e, g,>-!
+		q4-!\sf f8-!\p e-! f-! g-!
+		a-! g-! a-! h-! c8. <g g,>16 %100
+		q4\sf a8-!\p g-! a-! h-!
+		c-! h-! c-! d-! e8. g,16
+		<f g,>8\sf \noBreak f-!\p f-! f-! d'( f,)
+		r e-! e-! e-! c'( e,)
+		f( a) e([ g)] d( f) %105
+		e-!\f c'-! f,-! c'-! g-! c-!
+		a-! f'-! e-! g-! f-! a-!
+		e,-! c'-! f,-! c'-! g-! c-!
+		a-! f'-! e-! g-! f-! a-!
+		d,8. f16 d4-! d,-! %110
+		e'8. g16 e4-! e,-!
+		d'8-! f,-! d'-! f,-! d-! f-!
+		e'-! g,-! e'-! g,-! e-! g-!
+		f-! d'-! h-! d-! h-! d-!
+		c-! e4 e e8-! %115
+		f f e e d d
+		c4-! e,16-! f-! g-! a-! h-! c-! d-! h-!
+		c4-! e,16-! f-! g-! a-! h-! c-! d-! h-!
+		c4-! <c e, g,> q
+		q2 r4\fermata \bar "|." %120 finis
+	}
+}
