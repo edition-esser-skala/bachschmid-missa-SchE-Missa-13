@@ -418,6 +418,470 @@ GloriaBassoLyrics = \lyricmode {
 	men. %119 finis
 }
 
+CredoBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 2/2 \autoBeamOff \tempoCredo
+		\mvTr a'2\fE^\tutti a4 a
+		d,2 d
+		e1
+		a,2 r
+		r4 e' fis gis %5
+		a2 a,
+		r4 e' fis gis
+		a2 a,
+		r d'
+		g,! c %10
+		c h
+		h a4 a
+		a2 gis
+		a r
+		d4 c h a %15
+		gis2. gis4
+		a2 a
+		d, dis
+		e a4 a
+		e2. e4 %20
+		a,2 r
+		r a'4 a
+		f2 f
+		e2. e4
+		d2 r %25
+		r g4 f
+		e2 e
+		f f4 f
+		g g c c
+		g2. g4 %30
+		c,2 c4 c
+		c2 c4 c
+		c2 c
+		c1
+		f2 f4 g %35
+		a( g) a f
+		b4. b8 b2
+		g4( f) g e
+		a2 a
+		f4( e) f d %40
+		g4. g8 g2
+		e4( d) e( c)
+		f2 f
+		r f
+		b4( a) g( f) %45
+		e2 e4 e
+		f2 a4( f)
+		c'2( c,)
+		f f(
+		e4) e e e %50
+		d2 d
+		fis4 fis fis fis
+		g2 g
+		e1
+		f!2 f4 f %55
+		g2 gis4 gis
+		a2 d,4 d
+		a2. a4
+		d2 r
+		r e %60
+		e4( d) c( h)
+		a2 a'
+		d, dis
+		e r
+		r e %65
+		a2 a4( g!)
+		f2 g4 f
+		e2 c
+		R1
+		r2 c' %70
+		h4 a h gis
+		a gis a c,
+		d e f d
+		e2 a
+		e1 \noBreak %75
+		a,\fermata \bar "||"
+		\key d \minor \time 3/4 \tempoEtIncarnatus
+			\mvTr d4\p^\tutti d d \noBreak
+		d8. d16 d4 r
+		a a a8 a
+		a4 a r %80
+		r8 d([\f e f)] g([ a)]
+		b4 h2
+		c8. c,16 c4 r
+		R2.
+		f4 f f %85
+		f2 f4
+		b4. b8 a4
+		b8. b16 c4 c,
+		f r r
+		R2. %90
+		r4 \mvTr c\pE^\solo c
+		cis2 cis4
+		r d8. d16 d8 e
+		f4 fis4. fis8
+		g8. g16 gis4. gis8 %95
+		a8. a16 a4 a
+		a a, a'(
+		b) b2
+		b4 a g
+		f e d %100
+		e2 e4
+		d2 d4
+		gis,2 gis4
+		a a a
+		a2 a4 %105
+		d r r
+		r r d
+		d2 d4 \noBreak
+		d2.\fermata \bar "||"
+		\key a \minor \time 2/2 \tempoEtResurrexit
+			\mvTr a2\f^\tutti c4 e %110
+		a2 a
+		gis gis4 gis
+		a2 a
+		r r4 \mvTr gis\pE^\solo
+		a( h) c r %115
+		r2 \mvTr d,\fE^\tutti
+		e a4 a
+		e1
+		a,2 r
+		r a4 a %120
+		d2 f4 f
+		a2 a
+		b b
+		b a4 a
+		g2 g4 g %125
+		g2 f
+		r f
+		g4 f e d
+		e e e e
+		f4. f8 f2 %130
+		r4 g( e) c
+		f2 a
+		g4 g e c
+		f2 a
+		g1 %135
+		f2( es
+		des2.) des4
+		c2 r
+		r c4 c
+		f2 a4 a %140
+		b( a) g f
+		e2 f
+		b,( c)
+		f, r
+		r4 e'2 e4 %145
+		a2 a4 a
+		a2 gis
+		a2. a4
+		e2 r
+		r4 a2 a4 %150
+		f( e) f( d)
+		g2 g
+		e2. e4
+		f2 f
+		cis2. cis4 %155
+		d2 d
+		b'2. b4
+		a( g) f g
+		a2( a,)
+		d r %160
+		R1
+		r4 d2 d4
+		d2 d4 d
+		g4. g8 g2
+		g2. g4 %165
+		e2 e
+		h1
+		c2 r
+		r c
+		f4 e d c %170
+		h1
+		c2 c4 c
+		g'2 g4 g
+		c2 h
+		c1 %175
+		g2 r
+		r g
+		e e
+		d1
+		c2 c' %180
+		h a
+		gis a
+		e c'
+		h a
+		gis a %185
+		e c'
+		h( a
+		gis) a
+		e r
+		r d' %190
+		gis, a4 a
+		fis2 gis4 gis
+		a2 a
+		d2. c4
+		h( a) g!( h) %195
+		c2. h4
+		a( g) f( a)
+		h2. a4
+		gis fis e gis
+		a1 %200
+		e2 r
+		r e4 e
+		e2 a,
+		r a4 a
+		f'2 f %205
+		f f
+		e1
+		f
+		f
+		e2 r %210
+		r a
+		gis( e)
+		fis gis
+		a a,4 a
+		d( d') h( g!) %215
+		c,( c') a f
+		h, h' gis e
+		a, h c cis
+		d e f d
+		e2 a %220
+		d,( e)
+		a, r
+		d( e)
+		f r
+		d( e) %225
+		a, r\fermata \bar "|." %226 finis
+	}
+}
+
+CredoBassoLyrics = \lyricmode {
+	Cre -- do in
+	u -- num
+	De --
+	um,
+	o -- mni -- po -- %%
+	ten -- tem,
+	fa -- cto -- rem
+	coe -- li
+	et
+	ter -- rae, %10
+	vi -- si --
+	bi -- li -- um
+	o -- mni --
+	um
+	et in -- vi -- si -- %15
+	bi -- li --
+	um, in --
+	vi -- si --
+	bi -- li -- um
+	o -- mni -- %20
+	um.
+	Et in
+	u -- num
+	Do -- mi --
+	num %25
+	Je -- sum
+	Chri -- stum,
+	Fi -- li -- um
+	De -- i u -- ni --
+	ge -- ni -- %30
+	tum, et ex
+	Pa -- tre, ex
+	Pa -- tre
+	na --
+	tum an -- te %35
+	o -- mni -- a
+	sae -- cu -- la.
+	De -- um de
+	De -- o,
+	lu -- men de %40
+	lu -- mi -- ne,
+	De -- um
+	ve -- rum
+	de
+	De -- o __ %45
+	ve -- ro, de
+	De -- o __
+	ve --
+	ro, ge --
+	ni -- tum non %50
+	fa -- ctum,
+	con -- sub -- stan -- ti --
+	a -- lem
+	Pa --
+	tri, per quem %55
+	o -- mni -- a,
+	o -- mni -- a
+	fa -- cta
+	sunt.
+	Qui %60
+	pro -- pter
+	nos, nos
+	ho -- mi --
+	nes
+	et %65
+	pro -- pter
+	no -- stram sa --
+	lu -- tem
+
+	de -- %70
+	scen -- _ _ _
+	_ _ _ _
+	_ _ _ _
+	dit de
+	coe -- %75
+	lis.
+	Et in -- car --
+	na -- tus est
+	de Spi -- ri -- tu
+	San -- cto %80
+	ex __ Ma --
+	ri -- a
+	Vir -- gi -- ne,
+
+	et ho -- mo, %85
+	ho -- mo
+	fa -- ctus est,
+	ho -- mo fa -- ctus
+	est.
+	%90
+	Cru -- ci --
+	fi -- xus
+	e -- ti -- am pro
+	no -- bis sub
+	Pon -- ti -- o, sub %95
+	Pon -- ti -- o Pi --
+	la -- to, pa --
+	sus,
+	pas -- _ _
+	_ _ sus, %100
+	pas -- sus,
+	pas -- sus
+	et se --
+	pul -- tus, se --
+	pul -- tus %105
+	est,
+	se --
+	pul -- tus
+	est.
+	Et re -- sur -- %110
+	re -- xit
+	ter -- ti -- a
+	di -- e
+	se --
+	cun -- dum, %115
+	se --
+	cun -- dum Scri --
+	ptu --
+	ras,
+	et a -- %120
+	scen -- dit in
+	coe -- lum,
+	se -- det,
+	se -- det ad
+	dex -- te -- ram %125
+	Pa -- tris.
+	Et
+	i -- te -- rum ve --
+	tu -- rus est cum
+	glo -- ri -- a %130
+	iu -- di --
+	ca -- re,
+	iu -- di -- ca -- re
+	vi -- vos
+	et %135
+	mor --
+	tu --
+	os,
+	cu -- ius
+	re -- gni non %140
+	e -- rit, non
+	e -- rit
+	fi --
+	nis.
+	Et in %145
+	Spi -- ri -- tum
+	San -- ctum,
+	Do -- mi --
+	num
+	et vi -- %150
+	vi -- fi --
+	can -- tem,
+	qui ex
+	Pa -- tre,
+	qui ex %155
+	Pa -- tre
+	Fi -- li --
+	o -- que pro --
+	ce --
+	dit. %160
+
+	Qui cum
+	Pa -- tre et
+	Fi -- li -- o
+	si -- mul %165
+	ad -- o --
+	ra --
+	tur
+	et
+	con -- glo -- ri -- fi -- %170
+	ca --
+	tur: qui lo --
+	cu -- tus est
+	per Pro --
+	phe -- %175
+	tas.
+	Et
+	u -- nam
+	san --
+	ctam, san -- %180
+	ctam ca --
+	tho -- li --
+	cam
+	et a -- po --
+	sto -- li -- %185
+	cam Ec --
+	cle --
+	si --
+	am.
+	Con -- %190
+	fi -- te -- or
+	u -- num ba --
+	ptis -- ma
+	in re --
+	mis -- si -- %195
+	o -- nem
+	pec -- ca --
+	to -- _
+	_ _ _ _
+	_ %200
+	rum.
+	Et ex --
+	pe -- cto
+	re -- sur --
+	re -- cti -- %205
+	o -- nem
+	mor --
+	tu --
+	o --
+	rum, %210
+	et
+	vi --
+	tam ven --
+	tu -- ri, ven --
+	tu -- ri %215
+	sae -- cu -- li,
+	a -- _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ men, %220
+	a --
+	men,
+	a --
+	men,
+	a -- %225
+	men. %226 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

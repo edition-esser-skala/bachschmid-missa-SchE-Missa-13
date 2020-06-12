@@ -231,3 +231,238 @@ GloriaViolinoII = {
 		q2 r4\fermata \bar "|." %120 finis
 	}
 }
+
+CredoViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 2/2 \tempoCredo
+		c'2\fE c4 c
+		d2 d
+		h2. h4
+		a2 r
+		r4 gis'-! a-! h-! %5
+		a2-! a,-!
+		r4 gis'-! a-! h-!
+		a2-! a,-!
+		r f'~
+		f e %10
+		d d4 d
+		c2 c4 c
+		h2. h4
+		a-! c-! d-! e-!
+		f1 %15
+		r4 e e e
+		a2 c,
+		h h
+		h c
+		h2. h4 %20
+		a2 a4 a
+		a2 a
+		a4 f' d2~
+		d cis
+		d r %25
+		r d(
+		e) e
+		c4 c c c
+		h h c c
+		c c h h %30
+		c2 g4 g
+		g g g g
+		a a a a
+		b b b b
+		a2 a4-! b-! %35
+		c-! b-! c-! a-!
+		d2 d,
+		b'4 a b g
+		c2 c,
+		a'4 g a f %40
+		b2 b,
+		g'4 f g e
+		a2 a,
+		r f''-!
+		d4-! c-! b-! a-! %45
+		g2 c4 c
+		c2 c
+		c1
+		c2 r
+		r cis( %50
+		d4) d d d
+		d2 d
+		b4 b b b
+		b c8 d c4 b
+		a2 a %55
+		b h
+		a4 g f2
+		e1
+		d2 d'~
+		d4 c! h! a %60
+		gis1
+		a2 c
+		h a
+		gis r
+		r gis %65
+		a2. a4
+		a2 d,
+		e g
+		f4 e f d
+		e d e c %70
+		d2 d'
+		c, c'
+		h a
+		gis a~
+		a gis \noBreak %75
+		a1\fermata \bar "||"
+		\key d \minor \time 3/4 \newSpacingSection \tempoEtIncarnatus
+			r8 f'(-.\p f-. f-.) g([ f)] \noBreak
+		r a,,(-. a-. a-.) b([ a)]
+		r e''(-. e-. e-.) f([ e)]
+		r g,,(-. g-. g-.) a([ g)] %80
+		R2.
+		r8 d''-!\f g([ a)] g( f)
+		r e\p g([ e)] f( a,)
+		g-! f-! e-! d-! c-! b-!
+		a4-! a'-! r %85
+		c8\f c c c c c
+		f, f g g a a
+		d d f f e e
+		f4 r r
+		r8 f,-!\p a([ f)] f'( a,) %90
+		r e-! g([ e)] e'( c)
+		r a,-! e'([ cis)] e'( cis)
+		r d,-! f([ d)] f'4-!
+		r8 a,-! a-! a-! a-! a-!
+		b-! b-! h-! h-! h-! h-! %95
+		e,-! cis'-! cis-! cis-! d-! d-!
+		\appoggiatura e16 d8 cis16 d cis4 r
+		r r8 d-! d,-! d'-!
+		cis-! cis-! cis-! cis-! cis-! cis-!
+		d-! d-! e-! e-! f-! f-! %100
+		r cis,-! cis-! cis-! e([ cis)]
+		r d-! d-! d-! f([ d)]
+		r d-! d-! d-! d-! d-!
+		r cis-! cis-! cis-! d-! d-!
+		d-! d-! d-! d-! cis-! cis-! %105
+		d-!\pp d-! d-! d-! c-! c-!
+		b-! b-! b-! b-! a-! a-!
+		b-! b-! b-! b-! b-! b-! \noBreak
+		a2.\fermata \bar "||"
+		\key a \minor \time 2/2 \tempoEtResurrexit \newSpacingSection
+			a2-!\f c4-! e-! \noBreak %110
+		a-! e-! a-! c-!
+		e2-! h-!
+		c2.-! a4-!\p
+		gis-! fis-! e-! gis-!
+		a-! h-! c-! r %115
+		d-! c-! h-! a-!\f
+		gis2-! a~
+		a gis
+		a cis,4 cis
+		d d e e %120
+		f f f f
+		e2 cis'
+		d f,4 f
+		g g a a
+		b2. c8 b %125
+		a2 a'
+		r d,4 c
+		b a g2~
+		g c4 b
+		a2 c'4 c %130
+		c c2 c4~
+		c c2 c4~
+		c c2 c4~
+		c2 c,
+		r4 c c c %135
+		c c c c
+		c c b b
+		c2 r
+		R1
+		r2 f,4 f %140
+		f f b a
+		g g a a
+		g2. g4
+		f2 c4 c
+		h! h h h %145
+		c c c' c
+		h2. c8 h
+		a4 a, a a
+		gis2 r
+		R1 %150
+		r4 a'2 a4
+		b a b a
+		g2 g'
+		f4 e f d
+		a2 e' %155
+		a, f'
+		g, d'4 d
+		e2 a,4 b
+		e,-\critnote e e e
+		d-! fis2 fis4 %160
+		fis fis fis fis
+		fis2. fis4
+		fis2 r
+		g'2. g4
+		g g g g %165
+		g e g g
+		f2. g8 f
+		e2 r
+		r c'
+		a4 g f e %170
+		d2 g,
+		r c4 c
+		h2 h
+		c d
+		e2. e4 %175
+		d2 r
+		r g,4 g
+		g g, g'2
+		f2. g8 f
+		e2 r %180
+		e'4 e2 e4~
+		e e2 e4~
+		e e2 e4~
+		e e2 e4~
+		e e2 e4~ %185
+		e e2 e4~
+		e e2 e4~
+		e e2 e4~
+		e2 r
+		r a, %190
+		h c
+		a h
+		e, c'
+		r a
+		h1 %195
+		g
+		a
+		f2 d
+		e h'
+		c a %200
+		h r
+		r gis'4 gis
+		gis2 a
+		r e4 e
+		<d d,>2 q %205
+		q q
+		h d
+		a c
+		a4 c h a
+		gis2 r %210
+		r c
+		h gis
+		a h
+		e, a~
+		a g!~ %215
+		g f~
+		f e~
+		e a~
+		a a
+		gis a~ %220
+		a gis
+		a r
+		d h
+		a r
+		h gis %225
+		<a e a,> r\fermata \bar "|." %226 finis
+	}
+}

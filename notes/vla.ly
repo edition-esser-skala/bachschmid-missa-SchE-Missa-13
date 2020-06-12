@@ -231,3 +231,238 @@ GloriaViola = {
 		q2 r4\fermata \bar "|." %120 finis
 	}
 }
+
+CredoViola = {
+	\relative c' {
+		\clef alto
+		\key a \minor \time 2/2 \tempoCredo
+		e2\fE e4 e
+		f2 f
+		e e
+		e r
+		r4 e-! e-! e-! %5
+		e2-! e-!
+		r4 e-! e-! e-!
+		e2-! e-!
+		r a
+		g g %10
+		r h4 h
+		e,2 a
+		d, e
+		e r
+		d'4-! c-! h-! a-! %15
+		gis2 h
+		e, a
+		f fis
+		e e
+		e1 %20
+		e2 r
+		r e4 e
+		f2 f
+		e2. e4
+		d2 r %25
+		r g4 f
+		e2 c'
+		d,4 d d d
+		d d e e
+		d2. d4 %30
+		e2 c4 c
+		c c c c
+		c c c c
+		c e e e
+		f2 f4-! g-! %35
+		a-! g-! a-! f-!
+		b2 b,
+		g'4 f g e
+		a2 a,
+		f'4 e f d %40
+		g2 g,
+		e'4 d e c
+		f2 f,
+		r a'
+		b4-! a-! g-! f-! %45
+		e2 e4 e
+		f2 a
+		g1
+		a2 f(
+		e4) e e e %50
+		a,2 a
+		fis'4 fis fis fis
+		g2 d
+		e2. e4
+		f!2 f %55
+		g gis
+		a a
+		a a,
+		d r
+		r gis~ %60
+		gis4 f! e d
+		c2 a'
+		f fis
+		h, r
+		r e %65
+		a2. g!4
+		f2 g4 f
+		e2 c
+		R1
+		r2 e %70
+		d4 c d h
+		c h c a
+		d e f d
+		e2 e
+		e1 \noBreak %75
+		a,\fermata \bar "||"
+		\key d \minor \time 3/4 \newSpacingSection \tempoEtIncarnatus
+			d4-!\p d-! d-! \noBreak
+		d2.
+		a4-! a-! a-!
+		a2. %80
+		r8 d-!\f e-! f-! g-! a-!
+		b4-! h2\sf
+		c4-! c,-! r
+		R2.
+		f4\p f f %85
+		f8\f a a a a a
+		b b b b a a
+		b b c c c, c
+		f4 r r
+		f\p f f %90
+		c c c
+		cis cis cis
+		d d r
+		f-! fis(-. fis-.)
+		g-! gis(-. gis-.) %95
+		a a a
+		a a, r
+		b'8 b b b b b
+		b b a a g g
+		f f g g a a %100
+		g4 g, g
+		a a a
+		h h h
+		a a a
+		a a a %105
+		fis8\pp-! fis-! fis-! fis-! a-! a-!
+		g-! g-! g-! g-! fis-! fis-!
+		g-! g-! g-! g-! g-! g-! \noBreak
+		fis2.\fermata \bar "||"
+		\key a \minor \time 2/2 \tempoEtResurrexit \newSpacingSection
+			e'2-!\f e4-! e-! \noBreak %110
+		c2 c'
+		h gis
+		e e
+		e-!\p r
+		e r %115
+		r f\f
+		e e
+		e1
+		a,2 r
+		r a4 a %120
+		a a' a a
+		a2 a
+		f f
+		b,4 b c c
+		d2 b %125
+		c1
+		r2 f
+		g4 f e d
+		e2. e4
+		f2 f, %130
+		r4 g'2 g4
+		a2 f
+		e4 g2 g4
+		a2 f
+		g c, %135
+		f es
+		des2. des4
+		c2 r
+		r c4 c
+		f f a! a %140
+		b a g f
+		e e c c
+		d d c c
+		c2 r
+		r4 e2 e4 %145
+		e e e e
+		f f e e
+		e2. e4
+		e2 r
+		r4 a2 a4 %150
+		f e f d
+		g2 g
+		e2. e4
+		f2 a
+		cis,2. cis4 %155
+		d2 d
+		d b'?
+		a4 g f g
+		a2 a,
+		d r %160
+		R1
+		r4 a'2 a4
+		a a a a
+		h!2 h
+		h4 h h h %165
+		c2 c
+		d g,
+		g r
+		r e
+		f4 e d c %170
+		h2. h4
+		c2 c4 c
+		g'2 d4 d
+		e2 d
+		c2. c4 %175
+		h2 r
+		r d4 d
+		e2 e
+		d2. e8 d
+		c2 r %180
+		gis'4 gis a a
+		h h a a
+		gis gis a a
+		gis gis a a
+		h h a a %185
+		gis gis a a
+		gis gis a a
+		h h a a
+		gis2 r
+		r d' %190
+		gis, a
+		fis gis
+		a a
+		d2. c4
+		h a g! h %195
+		c2. h4
+		a g f a
+		h2. a4
+		gis fis e gis
+		a2 a, %200
+		e' r
+		r h'4 h
+		h2 c
+		r c4 c
+		d2 f, %205
+		f f
+		e1
+		f~
+		f2 f
+		h, r %210
+		r a'
+		gis e
+		fis gis
+		a a,
+		d4 d' h g! %215
+		c, c' a f
+		h, h' gis e
+		a,-! h-! c( cis)
+		d-! e-! f-! d-!
+		e2 e %220
+		f e
+		e r
+		d e
+		f r
+		d e %225
+		a, r\fermata \bar "|." %226 finis
+	}
+}

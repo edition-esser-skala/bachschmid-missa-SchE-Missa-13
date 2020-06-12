@@ -594,6 +594,9 @@ tocSection = #(define-music-function
 
 tempoKyrie = \tempoMarkup "Andante con moto"
 tempoGloria = \tempoMarkup "Allegro moderato"
+tempoCredo = \tempoMarkup "Allegro moderato"
+	tempoEtIncarnatus = \tempoMarkup "Poco andante"
+	tempoEtResurrexit = \tempoMarkup "Allegro moderato"
 
 
 
