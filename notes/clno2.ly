@@ -88,3 +88,34 @@ SanctusClarinoII = {
 		e2.\fermata \bar "|." %30 finis
 	}
 }
+
+BenedictusClarinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoBenedictus
+		R1*48 \noBreak %48
+		R1\fermataMarkup \bar "||"
+		\tempoOsanna e'1\fE \noBreak %50
+		d2 g,
+		c r
+		R1
+		r2 d~
+		g, c %55
+		d g,
+		c r
+		R1*9 %66
+		e,2 e
+		e e4 e
+		e2 r
+		R1*5 %74
+		r2 d' %75
+		c1
+		g2 r
+		R1*5 %82
+		g2 c
+		g2. g4
+		c2 e %85
+		f\breve*1/2
+		e\fermata \bar "|." %87 finis
+	}
+}

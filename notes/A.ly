@@ -971,6 +971,172 @@ SanctusAltoLyrics = \lyricmode {
 	sis. %30 finis
 }
 
+BenedictusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 2/2 \autoBeamOff \tempoBenedictus
+		R1*4
+		\mvTr e2.\pE^\solo e4 %5
+		e e r e
+		e e8 e f4 fis8 fis
+		e8. e16 e4 r2
+		r r4 e
+		f8([ e f e)] f4-! r %10
+		R1
+		r4 g g g8 g
+		a2. h?8[ a]
+		g2. a8[ g]
+		f2. g8 f %15
+		f([ g)] e([ d)] e4 r
+		R1
+		r2 r4 h'
+		c8[ d h d] c[ d h d]
+		c[ e] d c h([ a)] g f %20
+		e2 d
+		e4 r r2
+		R1*4 %26
+		g2. g4
+		g g r g
+		\appoggiatura a8 g4 f8 e \appoggiatura g8 f4 e8 d
+		e8. e16 e4 r2 %30
+		r r4 a8 a
+		g([ f e d)] d4-! r4
+		R1*2
+		r4 a' d2 %35
+		h4 h c2
+		a4 a h4. h8
+		e,2 r4 a
+		a8([ c)] c2 h8([ a)]
+		a8. gis16 gis4 r c %40
+		d8[ c d h] c[ h c a]
+		h[ a h gis] a4 r
+		r2 r4 c
+		h h8 h a4 f8 f
+		e2. e4 %45
+		e r r2
+		R1*2 \noBreak
+		R1\fermataMarkup \bar "||"
+		\key c \major \tempoOsanna \mvTr e1\fE^\tutti \noBreak %50
+		f
+		e2 r
+		r g4 g
+		a1
+		g %55
+		f
+		e2 g
+		g a
+		a g
+		c1 %60
+		h2 r
+		R1
+		r2 c
+		h( b)
+		a a~ %65
+		a h!4( a)
+		gis2 a~
+		a gis
+		a a
+		a4( g!) g2 %70
+		r c
+		b2. b4
+		a2 a
+		g1
+		f2 g4 g %75
+		g1
+		g2 g
+		fis( f)
+		e g
+		fis( f) %80
+		e g
+		a a
+		g g
+		g1
+		g2 g4 g %85
+		f\breve*1/2
+		e\fermata \bar "|." %87 finis
+	}
+}
+
+BenedictusAltoLyrics = \lyricmode {
+	Be -- ne --  %5
+	di -- ctus, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni,
+	qui
+	ve -- nit, %10
+
+	qui ve -- nit in
+	no -- _
+	_ _
+	_ mi -- ne %15
+	Do -- mi -- ni,
+
+	qui
+	ve -- _
+	_ nit in no -- mi -- ne %22
+	Do -- mi --
+	ni.
+
+	Be -- ne -- %27
+	di -- ctus, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni, %30
+	be -- ne --
+	di -- ctus,
+
+	qui ve -- %35
+	nit in no --
+	mi -- ne Do -- mi --
+	ni, in
+	no -- mi -- ne
+	Do -- mi -- ni, qui %40
+	ve -- _
+	_ nit,
+	qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- %45
+	ni.
+
+	O -- %50
+	san --
+	na
+	in ex --
+	cel --
+	_ %55
+	_
+	sis, o --
+	san -- na
+	in ex --
+	cel -- %60
+	sis,
+
+	o --
+	san --
+	na in __ %65
+	ex --
+	cel -- _
+	_
+	sis, o --
+	san -- na, %70
+	o --
+	san -- na
+	in ex --
+	cel --
+	sis, in ex -- %75
+	cel --
+	sis, o --
+	san --
+	na, o --
+	san -- %80
+	na, o --
+	san -- na
+	in ex --
+	cel --
+	sis, in ex -- %85
+	cel --
+	sis. %87 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

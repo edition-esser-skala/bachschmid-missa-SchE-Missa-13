@@ -82,3 +82,29 @@ SanctusTimpani = {
 		c2.\fermata \bar "|." %30 finis
 	}
 }
+
+BenedictusTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 2/2 \tempoBenedictus
+		R1*48 \noBreak %48
+		R1\fermataMarkup \bar "||"
+		\tempoOsanna c1\fE \noBreak %50
+		g2 g
+		c r
+		R1*2
+		r2 c %55
+		g g
+		c r
+		R1*17 %74
+		r2 g %75
+		c c
+		g r
+		R1*5 %82
+		g2 c
+		g2. g4
+		c2 c %85
+		c\breve*1/2
+		c\fermata \bar "|." %87 finis
+	}
+}

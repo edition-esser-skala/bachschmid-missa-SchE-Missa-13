@@ -504,6 +504,100 @@ SanctusViolinoI = {
 	}
 }
 
+BenedictusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 2/2 \tempoBenedictus
+		\tuplet 6/4 2 { a''8\fE a, h c h a gis f' e d c h }
+		\tuplet 6/4 2 { c a h c h a gis f' e d c h }
+		\tuplet 6/4 2 { a c h a c e d h d c a c }
+		\tuplet 6/4 2 { h e h gis h gis } e4-! r
+		\tuplet 6/4 2 { a'8\p a, h c h a gis f' e d c h } %5
+		\tuplet 6/4 2 { c a h c h a gis f' e d c h }
+		\tuplet 6/4 2 { c c c e e e d d d c c c }
+		\tuplet 6/4 2 { c h h h h h } h4-! r
+		\tuplet 6/4 2 { c8\fp e e e e e e e e e e e }
+		\tuplet 6/4 2 { f f f f f f f f f fis fis fis } %10
+		\tuplet 6/4 2 { g\fp d d d d d d d d d d d }
+		\tuplet 6/4 2 { c e e e e e e g g g g g }
+		\tuplet 6/4 2 { g g g g g g f f f f f f }
+		\tuplet 6/4 2 { f f f f f f e e e e e e }
+		\tuplet 6/4 2 { e e e e e e d d d d d d } %15
+		d( e c h) c4-! r
+		a-! a,-! h'-! h,-!
+		c'-! c,-! d'-! d,-!
+		e'-! g2 g4~
+		g-! \appoggiatura g16 f8. e16 \appoggiatura e d8.[ c16] \appoggiatura c h8. a16 %20
+		g8 c'\f c c h h h h
+		\tuplet 6/4 2 { c g f e f g a f e d e f }
+		\tuplet 6/4 2 { g e d c d e f d c h c d }
+		\tuplet 6/4 2 { e c e f d f g e g b a g }
+		\tuplet 6/4 2 { a g f a g f a g f e d c } %25
+		\tuplet 6/4 2 { g g' g g e c d f f f d h }
+		\tuplet 6/4 2 { c g'\p g g g g g g g g g g }
+		\tuplet 6/4 2 { g g g g g g g g g g g g }
+		\tuplet 6/4 2 { g g g f g e f f f e f d }
+		\tuplet 6/4 2 { e\ff e e e e e e e e e e e } %30
+		\tuplet 6/4 2 { e-! e\p e e e e e e e e e e }
+		\tuplet 6/4 2 { f f f f f f f f f f f f }
+		\tuplet 6/4 2 { d d d d d d d d d d d d }
+		\tuplet 6/4 2 { e e e e e e e e e e e e }
+		\tuplet 6/4 2 { f f f f f f f f f f f f } %35
+		\tuplet 6/4 2 { e e e e e e e e e e e e }
+		\tuplet 6/4 2 { d d d d d d d d d d d d }
+		\tuplet 6/4 2 { c c c c c c c e c c e c }
+		\tuplet 6/4 2 { c e e e a e e a e d e c }
+		\tuplet 6/4 2 { c\f h h h h h } h4-! r %40
+		f-!\p f'-! e,-! e'-!
+		d,-! d'-! c,-! c'-!
+		h8( e) c( a) h( e) c( a)
+		h4-! e~ e8 f( e d)
+		c\f a' a a gis gis gis gis %45
+		\tuplet 6/4 2 { a\ff e d c d e f d c h c d }
+		\tuplet 6/4 2 { e c h a h c d h a gis a h }
+		\tuplet 6/4 2 { c e a f e d c e c h d h } \noBreak
+		\tuplet 6/4 2 { a e d c d e } a,4-! r\fermata \bar "||"
+		\key c \major \tempoOsanna e''1\fE \noBreak %50
+		f
+		e2 c
+		h e
+		a, d
+		g, c~ %55
+		c h
+		c r
+		g' a~
+		a g
+		c1 %60
+		h2 h,
+		c d
+		e c'
+		h b
+		a a~ %65
+		a h!4 a
+		gis2 a~
+		a gis
+		a4 a, a'2~
+		a g!~ %70
+		g f~
+		f e~
+		e d~
+		d cis
+		d d' %75
+		c1
+		h2 g
+		fis f
+		e g
+		fis f %80
+		e g
+		a2. a4
+		h2 c~
+		c h
+		c g %85
+		a\breve*1/2
+		g\fermata \bar "|." %87 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

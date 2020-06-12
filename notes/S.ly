@@ -957,6 +957,170 @@ SanctusSopranoLyrics = \lyricmode {
 	sis. %30 finis
 }
 
+BenedictusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 2/2 \autoBeamOff \tempoBenedictus
+		R1*4
+		\mvTr a'4\pE^\solo \tuplet 3/2 4 { c8([ h a)] } h4 d %5
+		r \tuplet 3/2 4 { c8([ h a)] } h4 d8 d
+		c4 e8 e d4 c8 c
+		c8. h16 h4 r h
+		c8([ h c h)] c4-! r
+		R1*2 %11
+		r2 r4 g'
+		g a,2 f'4
+		f g,2 e'4
+		e f,2 d'4 %15
+		d8([ e)] c([ h)] c4 r
+		R1
+		r2 r4 d
+		e8[ f d f] e[ f d f]
+		e[ g] f e d([ c)] h a %20
+		g2 d'\trill
+		c4 r r2
+		R1*4 %26
+		c4 \tuplet 3/2 4 { e8([ d c)] } d4 f
+		r \tuplet 3/2 4 { e8([ d c)] } d4 f8 f
+		\appoggiatura f e4 d8 c \appoggiatura e8 d4 c8 h
+		c8. g16 g4 r e'8 e %30
+		d([ cis h a)] a4-! r
+		R1*2
+		r2 r4 e'
+		e f,2 d'4 %35
+		d4 e,2 c'4
+		c d,2 h'4
+		h4. c,8 c4 c'
+		c8([ e)] e2 d8([ c)]
+		c8. h16 h4 r e %40
+		f8[ e f d] e[ d e c]
+		d[ c d h] c[ h c a]
+		e'1
+		e4. e8 e([ f)] e d
+		c2 h\trill %45
+		a4 r r2
+		R1*2 \noBreak
+		R1\fermataMarkup \bar "||"
+		\key c \major \tempoOsanna \mvTr c1\fE^\tutti \noBreak %50
+		c2( h)
+		c c4 c
+		h2 e
+		a, d
+		g, c~ %55
+		c h
+		c r
+		e2. e4
+		d1
+		e2 d %60
+		d h
+		c( d)
+		e r
+		R1
+		r2 f~ %65
+		f f
+		e1~
+		e
+		e2 r
+		r g!~ %70
+		g f
+		f e~
+		e d~
+		d cis
+		d f4 f %75
+		e1
+		d2 h
+		c( d)
+		e h
+		c( d) %80
+		e c
+		c c
+		h c
+		c( h)
+		c c4 c %85
+		a\breve*1/2
+		g\fermata \bar "|." %87 finis
+	}
+}
+
+BenedictusSopranoLyrics = \lyricmode {
+	Be -- ne -- di -- ctus, %5
+	qui __ ve -- nit, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni, qui
+	ve -- nit,
+
+	qui %12
+	ve -- nit, qui
+	ve -- nit in
+	no -- mi -- ne %15
+	Do -- mi -- ni,
+
+	qui
+	ve -- _
+	_ nit in no -- mi -- ne %22
+	Do -- mi --
+	ni.
+
+	Be -- ne -- di -- ctus, %27
+	qui __ ve -- nit, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni, be -- ne -- %30
+	di -- ctus,
+
+	qui %34
+	ve -- nit, qui %35
+	ve -- nit in
+	no -- mi -- ne
+	Do -- mi -- ni, in
+	no -- mi -- ne
+	Do -- mi -- ni, qui %40
+	ve -- _
+	_ _
+	_
+	nit in no -- mi -- ne
+	Do -- mi -- %45
+	ni.
+
+	O -- %50
+	san --
+	na in ex --
+	cel -- _
+	_ _
+	_ _ %55
+	_
+	sis,
+	in ex --
+	cel --
+	_ _ %60
+	sis, o --
+	san --
+	na
+
+	in __ %65
+	ex --
+	cel --
+
+	sis,
+	in __ %70
+	ex --
+	cel -- _
+	_
+	_
+	sis, in ex -- %75
+	cel --
+	sis, o --
+	san --
+	na, o --
+	san -- %80
+	na, o --
+	san -- na
+	in ex --
+	cel --
+	sis, in ex -- %85
+	cel --
+	sis. %87 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

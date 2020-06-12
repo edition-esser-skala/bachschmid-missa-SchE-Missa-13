@@ -503,3 +503,97 @@ SanctusViolinoII = {
 		e2.\fermata \bar "|." %30 finis
 	}
 }
+
+BenedictusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 2/2 \tempoBenedictus
+		a4-!\fE \tuplet 3/2 4 { e'8 d c } h4-! \tuplet 3/2 4 { h'8 a gis }
+		a4-! \tuplet 3/2 4 { e8 d c } h4-! \tuplet 3/2 4 { h'8 a gis }
+		a4-! \tuplet 3/2 4 { c,8 c c } h4-! \tuplet 3/2 4 { a8 a a }
+		gis4 gis gis r
+		a-!\p \tuplet 3/2 4 { e'8 d c } h4-! \tuplet 3/2 4 { h'8 a gis } %5
+		a4-! \tuplet 3/2 4 { e8 d c } h4-! \tuplet 3/2 4 { h'8 a gis }
+		\tuplet 6/4 2 { a a a c c c h h h a a a }
+		\tuplet 6/4 2 { a gis gis gis gis gis } gis4-! r
+		\tuplet 6/4 2 { a8\fp c c c c c c c c cis cis cis }
+		\tuplet 6/4 2 { d d d d d d d d d d d d } %10
+		\tuplet 6/4 2 { h\fp h h h h h h h h h h h }
+		\tuplet 6/4 2 { e, c' c c c c c e e e e e }
+		\tuplet 6/4 2 { a, a a a a a a a a a a a }
+		\tuplet 6/4 2 { g g g g g g g g g g g g }
+		\tuplet 6/4 2 { f f f f f f f f f f f f } %15
+		f( g e d) e4-! r
+		f2-! g4-! g,-!
+		a'-! a,-! h'-! h,-!
+		e'8( f) d( f) e( f) d( f)
+		e4-! \appoggiatura e16 d8. c16 \appoggiatura c h8.[ a16] \appoggiatura a g8. f16 %20
+		e8 e'\f e e d d d d
+		\tuplet 6/4 2 { c g' f e f g a f e d e f }
+		\tuplet 6/4 2 { g e d c d e f d c h c d }
+		\tuplet 6/4 2 { e c e f d f g e g b a g }
+		\tuplet 6/4 2 { a g f a g f a g f e d c } %25
+		\tuplet 6/4 2 { c c c c c c h h h h h h }
+		\tuplet 6/4 2 { c c\p c c c c d d d d d d }
+		\tuplet 6/4 2 { e e e e e e d d d d d d }
+		\tuplet 6/4 2 { e e e d e c d d d c d h }
+		\tuplet 6/4 2 { c\ff c c c c c c c c c c c } %30
+		\tuplet 6/4 2 { cis-! cis\p cis cis cis cis cis cis cis cis cis cis }
+		\tuplet 6/4 2 { d d d d d d d d d d d d }
+		\tuplet 6/4 2 { h h h h h h h h h h h h }
+		\tuplet 6/4 2 { c c c c c c e e e e e e }
+		\tuplet 6/4 2 { e e e e e e d d d d d d } %35
+		\tuplet 6/4 2 { d d d d d d c c c c c c }
+		\tuplet 6/4 2 { c c c c c c h h h h h h }
+		\tuplet 6/4 2 { h h h h h h a c a a c a }
+		\tuplet 6/4 2 { a c c c e c c e c h c a }
+		\tuplet 6/4 2 { a\f gis gis gis gis gis } gis4-! r %40
+		d-!\p d'-! c,-! c'-!
+		h,-! h'-! a,-! a'-!
+		gis8-! e-! a-! e-! gis-! e-! a-! e-!
+		gis( h) e( d) c( d c h)
+		a\f c c c h h h h %45
+		\tuplet 6/4 2 { a\ff e' d c d e f d c h c d }
+		\tuplet 6/4 2 { e c h a h c d h a gis a h }
+		\tuplet 6/4 2 { a c e d c h a c a gis h gis } \noBreak
+		\tuplet 6/4 2 { a e d c d e } a,4-! r\fermata \bar "||"
+		\key c \major \tempoOsanna c'1~\fE \noBreak %50
+		c2 h
+		c-! r
+		r h
+		c a
+		h g %55
+		a f
+		e c'4 d
+		e2. e4
+		d2 d
+		e d %60
+		d g
+		fis f
+		e4 e, e'2
+		f g
+		c,-! c~ %65
+		c d~
+		d4 h c a
+		h1
+		a2 c4 c
+		d c d b %70
+		c b c a
+		b a b g
+		a g a f
+		g f g e
+		f e f f' %75
+		e f g a
+		d,2 h
+		c d
+		g, h
+		c d %80
+		g, c~
+		c4 a d2~
+		d e
+		d1
+		e2 e %85
+		f\breve*1/2
+		e\fermata \bar "|." %87 finis
+	}
+}

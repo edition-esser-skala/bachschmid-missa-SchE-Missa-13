@@ -952,6 +952,170 @@ SanctusBassoLyrics = \lyricmode {
 	sis. %30 finis
 }
 
+BenedictusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 2/2 \autoBeamOff \tempoBenedictus
+		R1*4
+		r2 r4 \mvTr e8\pE^\solo e %5
+		a4 a, r e'
+		a a8 a d,4 dis8 dis
+		e8. e16 e4 r2
+		R1*2 %10
+		r2 r4 g
+		c8([ h c h)] c4-! r
+		r2 r4 d
+		h2 c4 c
+		a a8 a h4. h8 %15
+		c2 r4 e,
+		f8([ e f a)] g([ fis g h)]
+		a([ g a c)] h([ a h d)]
+		c4 g c g8 g
+		c,4 d8 d e4 f8 f %20
+		g2. g4
+		c, r r2
+		R1*4 %26
+		r2 r4 g'8 g
+		c4 c, r g
+		c c8 c f4 g8 g
+		c,8. c16 c4 r2 %30
+		R1*2
+		r2 r4 g'8 g
+		f([ e d c)] c4-\parenthesize-! r
+		r2 r4 h' %35
+		gis2 a4 a
+		fis2 gis4 gis
+		a4. a8 a4 a
+		a a8 a a4 a,8 a
+		e'8. e16 e4 r2 %40
+		R1
+		r2 r4 a
+		gis( a) gis( a)
+		gis gis a d,8 d
+		e2. e4 %45
+		a,4 r r2
+		R1*2 \noBreak
+		R1\fermataMarkup \bar "||"
+		\key c \major \tempoOsanna \mvTr c1\fE^\tutti \noBreak %50
+		d
+		c2 a'~
+		a g
+		g f~
+		f e %55
+		d1
+		c2 c'
+		c4( h) a( g)
+		fis2 g
+		g( fis) %60
+		g g
+		a( h)
+		c c,
+		d( e)
+		f f~ %65
+		f d
+		e a
+		e1
+		a,2 a'
+		b1 %70
+		a
+		g
+		f
+		e
+		d2 h! %75
+		c4 d e f
+		g2 g,4 g'
+		a2( h)
+		c g
+		a( h) %80
+		c e,
+		f fis
+		g c
+		g1
+		c,2 c4 c %85
+		c\breve*1/2
+		c\fermata \bar "|." %87 finis
+	}
+}
+
+BenedictusBassoLyrics = \lyricmode {
+	Be -- ne -- %5
+	di -- ctus, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni,
+
+	qui %11
+	ve -- nit,
+	qui
+	ve -- nit in
+	no -- mi -- ne Do -- mi -- %15
+	ni, qui
+	ve -- _
+	_ _
+	nit, qui ve -- nit, qui
+	ve -- nit in no -- mi -- ne %20
+	Do -- mi --
+	ni.
+
+	Be -- ne -- %27
+	di -- ctus, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni, %30
+
+	be -- ne -- %33
+	di -- ctus,
+	qui %35
+	ve -- nit in
+	no -- mi -- ne
+	Do -- mi -- ni, qui
+	ve -- nit in no -- mi -- ne
+	Do -- mi -- ni, %40
+
+	qui
+	ve -- _
+	nit in no -- mi -- ne
+	Do -- mi -- %45
+	ni.
+
+	O -- %50
+	san --
+	na in __
+	ex --
+	cel -- _
+	_ %55
+	_
+	sis, o --
+	san -- na __
+	in ex --
+	cel -- %60
+	sis, o --
+	san --
+	na, o --
+	san --
+	na in __ %65
+	ex --
+	cel -- _
+	_
+	sis, o --
+	san -- %70
+	_
+	_
+	_
+	_
+	na, o -- %75
+	san -- na in ex --
+	cel -- sis, o --
+	san --
+	na, o --
+	san -- %80
+	na, o --
+	san -- na
+	in ex --
+	cel --
+	sis, in ex -- %85
+	cel --
+	sis. %87 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

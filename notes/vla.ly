@@ -503,3 +503,97 @@ SanctusViola = {
 		c2.\fermata \bar "|."
 	}
 }
+
+BenedictusViola = {
+	\relative c' {
+		\clef alto
+		\key a \minor \time 2/2 \tempoBenedictus
+		e4-!\fE r e-! r
+		e-! r e-! r
+		r a d,( dis)
+		e e e r
+		e\p r e r %5
+		e r e r
+		e2 f4( fis)
+		e e e r
+		\tuplet 6/4 2 { a,8\fp a a a a a a a a a a a }
+		\tuplet 6/4 2 { d d d d d d d d d d d d } %10
+		\tuplet 6/4 2 { g,\fp g g g g g g g g g g g }
+		\tuplet 6/4 2 { c c c c c c c c c c c c }
+		\tuplet 6/4 2 { f f f f f f d d d d d d }
+		\tuplet 6/4 2 { h h h h h h c c c c c c }
+		\tuplet 6/4 2 { a a a a a a h h h h h h } %15
+		\tuplet 6/4 2 { c c c c c c } c4-! r
+		f-! f,-! g'-! g,-!
+		a'-! a,-! h'-! h,-!
+		c'8( d) h( d) c( d) h( d)
+		c, c d d e e f f %20
+		g\f g g g g g g g
+		g4 \tuplet 3/2 4 { c,8 d e } f4-! \tuplet 3/2 4 { h,8 c d }
+		e4-! \tuplet 3/2 4 { a,8 h c } d4-! \tuplet 3/2 4 { g,8 a h }
+		\tuplet 6/4 2 { c c c d d d e e e g g g }
+		\tuplet 6/4 2 { f f f f f f f f f a a a } %25
+		\tuplet 6/4 2 { e e e e e e d d d d d d }
+		\tuplet 6/4 2 { c e\p e e e e h h h h h h }
+		\tuplet 6/4 2 { c c c c c c h h h h h h }
+		\tuplet 6/4 2 { c c c c c c f f f g g g }
+		\tuplet 6/4 2 { g\ff g g g g g g g g g g g } %30
+		\tuplet 6/4 2 { g-! a,\p a a a a a a a a a a }
+		\tuplet 6/4 2 { a a a a a a a a a a a a }
+		\tuplet 6/4 2 { g g g g g g g g g g g g }
+		\tuplet 6/4 2 { c c c c c c c' c c c c c }
+		\tuplet 6/4 2 { a a a a a a h h h h h h } %35
+		\tuplet 6/4 2 { gis gis gis gis gis gis a a a a a a }
+		\tuplet 6/4 2 { fis fis fis fis fis fis gis gis gis gis gis gis }
+		\tuplet 6/4 2 { e e e e e e e e e e e e }
+		\tuplet 6/4 2 { a a a a a a a a a a a a }
+		\tuplet 6/4 2 { e\f e e e e e } e4-! r %40
+		d-!\p d'-! c,-! c'-!
+		h,-! h'-! a,-! a'-!
+		e e e e
+		e8 e gis gis a a d, d
+		e\f e e e e e e e %45
+		a,4\ff \tuplet 3/2 4 { a'8 h c } d4-! \tuplet 3/2 4 { g,8 a h }
+		c4-! \tuplet 3/2 4 { f,8 g a } h4-! \tuplet 3/2 4 { e,8 fis gis }
+		a a d, d e e e, e \noBreak
+		a2 r\fermata \bar "||"
+		\key c \major \tempoOsanna c1\fE \noBreak %50
+		d
+		c2-! a'~
+		a g~
+		g f~
+		f e %55
+		d1
+		c2 e4 g
+		c h a g
+		fis2 g~
+		g fis %60
+		g4 g, g'2
+		a h
+		c c,
+		d e
+		f a~ %65
+		a f
+		e a
+		e1
+		a,2 a'4 a
+		b a b g %70
+		a g a f
+		g f g e
+		f e f d
+		e d e a,
+		d c! d h! %75
+		c d e f
+		g2 g
+		a h
+		c g
+		a h %80
+		c e,
+		f fis
+		g g
+		g2. g4
+		g2 c, %85
+		c\breve*1/2
+		c\fermata \bar "|." %87 finis
+	}
+}
