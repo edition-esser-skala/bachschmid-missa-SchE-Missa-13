@@ -887,6 +887,76 @@ CredoSopranoLyrics = \lyricmode {
 	men. %226 finis
 }
 
+SanctusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoSanctus
+		\mvTr c'4\fE^\tutti c r2
+		c4 c r2
+		c4 c r2
+		c4 d d c8 c
+		c4 c h4. c16([ h)] \noBreak %5
+		h2 r\fermata \bar "||"
+		\time 3/4 \tempoPleni r8 h c([ h)] c([ d)] \noBreak
+		e4 d r
+		r8 h c([ h)] c([ d)]
+		e4 d r %10
+		c4. c8 c4
+		c2.~
+		c4. c8 c4
+		c c g'~
+		g f2~ %15
+		f4 e2~
+		e4 d2~
+		d4 c c
+		d( c h)
+		c r8 c, d e %20
+		f g a([ h c d)]
+		e4 r r
+		R2.
+		r8 e d([ c h a)]
+		g4 r g %25
+		c2 c4
+		c2 c4
+		\once \tieDashed c2.~
+		c
+		c\fermataMarkup \bar "|." %30 finis
+	}
+}
+
+SanctusSopranoLyrics = \lyricmode {
+	San -- ctus,
+	San -- ctus,
+	San -- ctus,
+	San -- ctus Do -- mi -- nus
+	De -- us Sa -- ba -- %5
+	oth.
+	Ple -- ni __ sunt
+	coe -- li,
+	coe -- li __ et __
+	ter -- ra %10
+	glo -- ri -- a,
+	glo --
+	ri -- a
+	tu -- a, glo --
+	_ %15
+	_
+	_
+	ri -- a
+	tu --
+	a. O -- san -- na %20
+	in ex -- cel --
+	sis,
+
+	o -- san --
+	na, o -- %25
+	san -- na
+	in ex --
+	cel --
+
+	sis. %30 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

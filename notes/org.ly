@@ -912,6 +912,76 @@ CredoBassFigures = \figuremode {
 	<_!>1 %226 finis
 }
 
+SanctusOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoSanctus
+		\mvTr c4\fE-\tutti c r2
+		c4 c r2
+		c4 c r2
+		f4 d h c
+		f fis g4. g8 \noBreak %5
+		g2 r\fermata \bar "||"
+		\time 3/4 \tempoPleni r8 g a g a h \noBreak
+		c4 h a
+		r8 g a g a h
+		c4 h h, %10
+		r8 c d c d e
+		f4 e d
+		r8 c d c d e
+		f4 e c'
+		f, a h, %15
+		e g a,
+		d f g,
+		c e a
+		f g g,
+		r8 c d e f g %20
+		a e f g a h
+		c2.~-\tasto
+		c
+		r8 c h a g f
+		e a g f e d %25
+		c2.
+		c
+		f4 f f
+		f f f
+		c2.\fermata \bar "|." %30 finis
+	}
+}
+
+SanctusBassFigures = \figuremode {
+	r1
+	r
+	r
+	<5 3>4 <8 5 3> <6 5>2
+	<6 5>4 <\t \t> <5 3>4. <6 4>8 %5
+	<5 3>1
+	r8 <8 3> \bassFigureExtendersOn <8 3\!> q q q
+	q4 q q
+	<8>8 <8 3> <8 3\!> q q q
+	q4 q q %10
+	r8 <8 3> <8 3\!> q q q
+	q4 q q
+	<8>8 <8 3> <8 3\!> q q q
+	q4 q \bassFigureExtendersOff r
+	<9>4 <6> <\t 7> %15
+	<9> <6> <\t 7>
+	<9> <6> <\t 7>
+	<9> <6> <3>
+	<6> <6 4> <5 3>
+	r8 <8> <\t> <6> q q %20
+	q <3> q q q q
+	r2.
+	r
+	r8 <3> q q q q
+	q <6> q q q q %25
+	<8>2 <7->4
+	<6 4> <7- 5>2
+	r2.
+	r
+	r %30 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

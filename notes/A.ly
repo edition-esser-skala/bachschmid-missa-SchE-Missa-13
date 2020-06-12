@@ -901,6 +901,76 @@ CredoAltoLyrics = \lyricmode {
 	men. %226 finis
 }
 
+SanctusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoSanctus
+		\mvTr g'4\fE^\tutti g r2
+		g4 g r2
+		g4 g r2
+		a4 a g g8 g
+		a4 a g4. g8 \noBreak %5
+		g2 r\fermata \bar "||"
+		\time 3/4 \tempoPleni g4 g g\noBreak
+		g g r
+		g g g
+		g g r %10
+		r8 e([ f e f g]
+		a4) g f
+		r8 e([ f e)] f g
+		a4 g r
+		a2. %15
+		g
+		f
+		e4. e8 e4
+		f( e d)
+		e r r %20
+		R2.
+		r8 c' h([ a)] g([ f)]
+		e a g([ f e d)]
+		c4 r r
+		r r g' %25
+		g4.( a8) b([ g)]
+		a([ f)] g([ a b g)]
+		\once \tieDashed a2.~
+		a
+		g\fermata \bar "|." %30 finis
+	}
+}
+
+SanctusAltoLyrics = \lyricmode {
+	San -- ctus,
+	San -- ctus,
+	San -- ctus,
+	San -- ctus Do -- mi -- nus
+	De -- us Sa -- ba -- %5
+	oth.
+	Ple -- ni sunt
+	coe -- li,
+	coe -- li et
+	ter -- ra %10
+	glo --
+	ri -- a,
+	glo -- ri -- a
+	tu -- a,
+	glo -- %15
+	_
+	_
+	_ ri -- a
+	tu --
+	a. %20
+
+	O -- san -- na
+	in ex -- cel --
+	sis,
+	o -- %25
+	san -- na
+	in ex --
+	cel --
+
+	sis. %30 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

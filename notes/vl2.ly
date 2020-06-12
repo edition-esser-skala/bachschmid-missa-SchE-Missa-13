@@ -466,3 +466,40 @@ CredoViolinoII = {
 		<a e a,> r\fermata \bar "|." %226 finis
 	}
 }
+
+SanctusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSanctus
+		r8 e-!\f e f16 g a8([\p g)] f( e)
+		r c'-!\f c d16 e f8([\p e)] d( c)
+		r e-!\f e f16 d c8([\p g')] f( e)
+		f\f f f f f f e c
+		c c c c h4. c16( h) \noBreak %5
+		h2 r\fermata \bar "||"
+		\time 3/4 \tempoPleni g'16 g g g g g g g g g g g \noBreak
+		g g g g g g g g g g g g
+		g g g g g g g g g g g g
+		g g g g g g g g g g g g %10
+		g8-! e-! f-! e-! f-! g-!
+		a4-! g-! f-!
+		r8 e-! f-! e-! f-! g-!
+		a4-! g-! g~
+		g8 c, f4. f8~ %15
+		f h, e4. e8~
+		e a, d4. d8~
+		d g, c4. c8
+		f, a16 f e4 d
+		c r8 c-! d-! e-! %20
+		f-! g-! a-! h-! c-! d-!
+		e4-! g8-! f-! e-! d-!
+		c-! f-! e-! d-! c-! h-!
+		c4-! r8 a-! g-! f-!
+		e-! a-! g-! f-! e-! d-! %25
+		e( c') e( f) g( e)
+		f( a) e8 f) g( e)
+		f4-! f-! f-!
+		f-! f-! f-!
+		e2.\fermata \bar "|." %30 finis
+	}
+}

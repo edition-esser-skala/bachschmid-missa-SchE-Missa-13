@@ -467,6 +467,43 @@ CredoViolinoI = {
 	}
 }
 
+SanctusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoSanctus
+		r8 c'-!\f c d16 e f8([\p e)] d( c)
+		r e-!\f e f16 g a8([\p g)] f( e)
+		r g-!\f g a16 h c8([\p b)] a( g)
+		a\f a a, a g g e' e
+		d d d d d4. e16( d) \noBreak %5
+		d2 r\fermata \bar "||"
+		\time 3/4 \tempoPleni r8 h-! c-! h-! c-! d-! \noBreak
+		e4-! d-! c'-!
+		h8-! h,-! c-! h-! c-! d-!
+		e4-! d-! d'-! %10
+		c16 c c c c c c c c c c c
+		c c c c c c c c c c c c
+		c c c c c c c c c c c c
+		c c c c c c c c c c c c
+		c8 a4 f h8~ %15
+		h g4 e a8~
+		a f4 d g8~
+		g e4 c e8
+		\appoggiatura e16 d8 f16 d c4 h
+		c r r %20
+		R2.
+		r8 c'-! h-! a-! g-! f-!
+		e-! a-! g-! f-! e-! d-!
+		r e-! d-! c-! h-! a-!
+		g-! f'-! e-! d-! c-! h-! %25
+		c( e) g( a) b( g)
+		a( c,) g'( a) b( g)
+		a4-! a-! a-!
+		a-! a-! a-!
+		g2.\fermata \bar "|." %30 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

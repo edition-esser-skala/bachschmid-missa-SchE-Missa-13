@@ -597,6 +597,8 @@ tempoGloria = \tempoMarkup "Allegro moderato"
 tempoCredo = \tempoMarkup "Allegro moderato"
 	tempoEtIncarnatus = \tempoMarkup "Poco andante"
 	tempoEtResurrexit = \tempoMarkup "Allegro moderato"
+tempoSanctus = \tempoMarkup "Poco adagio"
+	tempoPleni = \tempoMarkup "Allegro"
 
 
 
