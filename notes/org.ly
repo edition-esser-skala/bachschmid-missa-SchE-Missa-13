@@ -1167,13 +1167,262 @@ BenedictusBassFigures = \figuremode {
 	<5 3> %87 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+AgnusDeiOrgano = {
+	\relative c {
+		\clef bass
+		\twofourtime \key e \minor \time 2/4 \tempoAgnusDei
+		\mvTrr e8\mf-\solo e e e
+		e e e r
+		a,4 h
+		e g,
+		a h %5
+		e8 e e r
+		c\sf c c c
+		h4 r
+		c8\sfE c c c
+		h-! h\p h r %10
+		e e e e
+		e e e r
+		a,4 h
+		e g,
+		a h %15
+		e8 e e r
+		\mvTrh c\sf-\tutti c c c
+		h h r h
+		e\sfE e c c
+		h4 r %20
+		\mvTr e8\p-\solo e e e
+		e e e r
+		a,4 h
+		e g,
+		a h %25
+		e r
+		\mvTr gis8\fE-\tutti gis gis gis
+		a a a a
+		e e e e
+		f f f f %30
+		d d d d
+		c c c c
+		h h h h
+		h[ h] \mvTr h\p-\solo-\tasto h
+		h h h h %35
+		h h h h
+		h h h h
+		h h h h
+		e r e r
+		a r a r %40
+		dis, r dis r
+		e r a, r
+		h\f h h h
+		e4-! e8-!\p e-!
+		e-! e-! e-! e-! \noBreak %45
+		e2\fermata \bar "||"
+		\key c \major \time 2/2 \tempoDona \newSpacingSection
+			\mvTr c1\fE-\tutti \noBreak
+		d
+		c2 c'~
+		c4 h8 a g4 f %50
+		e2 c'4 h
+		a h a g
+		fis d g2~
+		g fis
+		g \clef "treble_8" g'~ %55
+		g4 fis8 e d4 c
+		\clef bass g1
+		a
+		g2 g~
+		g4 fis8 e d4 c %60
+		h2 h
+		c cis
+		d d
+		e1
+		fis2 g~ %65
+		g fis
+		g \clef treble << {
+			r
+			a'2 d
+		} \\ {
+			g,~
+			g f!
+		} >>
+		\clef bass c,1
+		d %70
+		c2 c'~
+		c4 b8 a b4 g
+		a f d'2~
+		d4 c8 h c4 a
+		h g e'2~ %75
+		e4 d8 c d4 h
+		c a e c
+		d2 e
+		a, \clef treble << {
+			a''
+			b b %80
+		} \\ {
+			a~
+			a g! %80
+		} >>
+		\clef bass d,1
+		f
+		e2 a~
+		a4 g8 f g4 e
+		f e d e %85
+		f e f fis
+		g2 \clef treble << {
+			g'
+			c1
+			h
+			f' %90
+		} \\ {
+			r2
+			c,1
+			g'
+			a2 h %90
+		} >>
+		\clef bass c,,1
+		d
+		c2 c'~
+		c4 h8 a g4 f
+		e2 e %95
+		f fis
+		\mark \critnote g4 g2 f4
+		e2. d8 e
+		f2. e8 f
+		g2. f8 g %100
+		a2. g8 a
+		h2. a8 h
+		c4 c a a
+		f f g g
+		c,2 r %105
+		R1
+		r2 c'
+		f, g
+		c, r
+		R1 %110
+		r2 c
+		f, g
+		c, r
+		c' r
+		c c %115
+		c r\fermata \bar "|." %116 FINIS
+	}
+}
+
+AgnusDeiBassFigures = \figuremode {
+	r2
+	r
+	<[9 7]>16 <8 6> <[7 5]>8 <6 4> <5 _+>
+	r4 <6>
+	<[9 7]>16 <8 6> <[7 5]>8 <6 4> <5 _+> %5
+	r2
+	<6\\>
+	<_+>
+	<6\\>
+	<_+> %10
+	r
+	r
+	<[9 7]>16 <8 6> <[7 5]>8 <6 4> <5 _+>
+	r4 <6>
+	<[9 7]>16 <8 6> <[7 5]>8 <6 4> <5 _+> %15
+	r2
+	<6\\>
+	<_+>
+	r4 <6\\>
+	<_+>2 %20
+	r
+	r
+	<[9 7]>16 <8 6> <[7 5]>8 <6 4> <5 _+>
+	r4 <6>
+	<[9 7]>16 <8 6> <[7 5]>8 <6 4> <5 _+> %25
+	r2
+	<7! 5>
+	<5 3>
+	<7 _+>
+	<5 3> %30
+	<6 _!>
+	<7>4 <6>
+	<7 _+> <6! 4>
+	<5+ _+>2
+	<6 4> %35
+	<5 _+>4 <7 5 [_+]>
+	<6 4>2
+	<5 _+>4 <7 5 _+>
+	r4 <7! _+>
+	<4>8 <3>4. %40
+	<7>4 <6>8 <5>
+	r4 <8 6>
+	<6 4> <5 _+>
+	r <5 _+>
+	<6 4>2 %45
+	<5 _+>
+	r1
+	<7>2 <6>
+	r1
+	<5 2>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff %50
+	<6>1
+	<5 3>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+	<6 5>4 <[7 _+]>2.
+	<5 2>2 <\t \t>
+	r <8 3> %55
+	<4 2>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+	<3>1
+	<7>2 <6\\>
+	r1
+	<4 2>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff %60
+	<6>1
+	\bo <[9]>4 \bc <[8]> <6 5>2
+	<_+>1
+	<7>2 <6!>
+	<6 5>1 %65
+	<4 2>2 <\t \t>
+	r1
+	r
+	<4!>2 <3>
+	<7> <6> %70
+	r1
+	<4 2>4 <\t \t> <6 4> <\t \t>
+	<6>2 <_+>
+	<4 2>4 <\t \t> <6 4\+> <\t \t>
+	<6>2 <_+> %75
+	<4 2+>4 <\t \t> <6 4\+> <\t \t>
+	<6>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+	<6 5>2 <_+>
+	r1
+	r %80
+	<4>2 <3>
+	<6>1
+	<7 [5-]>2 <_!>
+	<5 2->2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+	<6 5>1 %85
+	<6>4 <\t> <5> <\t>
+	<_!>1
+	r
+	r
+	r %90
+	r
+	<7>2 <6>
+	r1
+	<5 2>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+	<8 6>1 %95
+	\bo <[9]>4 \bc <[8]> <6 5>2
+	\bo <[9]>4 <8>2 \bc <[2]>4
+	<6>1
+	<5>2 <6>
+	<5> <6> %100
+	<5> <6>
+	<5> <6>
+	r <5 3>
+	<6 5>1
+	r1 %105
+	r
+	r
+	<6 5>
+	r
+	r %110
+	r
+	<6 5>
+	r
+	r
+	r %115
+	r %116 FINIS
+}

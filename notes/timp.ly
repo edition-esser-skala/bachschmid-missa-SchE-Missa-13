@@ -108,3 +108,43 @@ BenedictusTimpani = {
 		c\fermata \bar "|." %87 finis
 	}
 }
+
+AgnusDeiTimpani = {
+	\relative c {
+		\clef bass
+		\twofourtime \key c \major \time 2/4 \tempoAgnusDei
+		R2*45 \noBreak %45
+		R2\fermataMarkup \bar "||"
+		\time 2/2 \tempoDona R1*2
+		r2 c\fE
+		g g %50
+		c r
+		R1*17 %68
+		c2 c
+		g g4 g %70
+		c2 r
+		R1*15 %86
+		g2 r
+		R1*3 %90
+		c2 c
+		g g
+		c r
+		R1*3 %96
+		g2 g
+		c r
+		R1*3 %101
+		g2 g
+		c r
+		r g
+		c r %105
+		R1*2
+		r2 g
+		c r
+		R1*2 %111
+		r2 g
+		c r
+		c r
+		c c %115
+		c r\fermata \bar "|." %116 FINIS
+	}
+}

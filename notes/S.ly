@@ -1121,13 +1121,207 @@ BenedictusSopranoLyrics = \lyricmode {
 	sis. %87 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% SopranoLyrics = \lyricmode {
-%
-% }
+AgnusDeiSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key e \minor \time 2/4 \autoBeamOff \tempoAgnusDei
+		R2*10 %10
+		\mvTr h'8.([\pE^\solo a16] g[ fis)] g([ a)]
+		h16.([ e32)] h8 r16 h([ e h)]
+		\appoggiatura h16 a8 g4 fis8
+		g16([ a)] h8 r16 h([ e h)]
+		\appoggiatura h16 a8( g4) fis8 %15
+		\tuplet 3/2 8 { g16([ fis e)] } e8 r4
+		\mvTr ais4.\fE^\tutti ais8
+		h h r h16 h
+		h8 h ais4
+		h r %20
+		R2*5 %25
+		r4 \mvTr e8\fE^\tutti e
+		f4. f8
+		e e r4
+		d8. d16 d8 d
+		c c r4 %30
+		h4. h8
+		h h a a
+		a a g!4
+		fis r8 \mvTr fis16\pE^\solo fis
+		g([ a)] h4 a16([ g)] %35
+		\appoggiatura g fis8 fis r fis
+		g16([ a)] h4 a16([ g)]
+		\appoggiatura g fis8 fis r h
+		h h16 h e8 d!
+		d([ c)] c4~ %40
+		c8 c([ h)] a
+		g([ e')] c([ a)]
+		g4( fis)\trill
+		e r
+		R2 \noBreak %45
+		R\fermataMarkup \bar "||"
+		\key c \major \time 2/2 \tempoDona \newSpacingSection
+			r2 \mvTr c'~\fE^\tutti \noBreak
+		c4 h8[ a] g4 f
+		e2 c'(
+		d1) %50
+		e2 r
+		e2. e4
+		a,2 h4( c)
+		d1
+		d2 h4 h %55
+		c2 c
+		d d
+		c1
+		h2 r
+		R1 %60
+		r2 d~
+		d4 c8[ h] a4 g
+		fis2 d'~
+		d c!~
+		c h %65
+		a1
+		g2 g4 g
+		a2 d
+		g, c~
+		c h %70
+		c r
+		c1
+		c2 r
+		d1
+		d2 r %75
+		e1
+		e2 e(
+		d h)
+		a a4 a
+		b2 b %80
+		a1
+		a2 r
+		R1*4 %86
+		g2. g4
+		c1
+		h
+		f' %90
+		e2 c~
+		c h
+		c r
+		R1
+		r2 g'~ %95
+		g4 f8[ e] d4 c
+		h2 r
+		r c~
+		c d~
+		d e~ %100
+		e f
+		f( g)
+		e e4 e
+		d d d2
+		c r %105
+		R1
+		r2 e
+		f( d)
+		e r
+		R1 %110
+		r2 e
+		d( h)
+		c r
+		R1*2 %115
+		R1\fermataMarkup \bar "|." %116 FINIS
+	}
+}
+
+AgnusDeiSopranoLyrics = \lyricmode {
+	A -- gnus %11
+	De -- i, qui __
+	tol -- lis pec --
+	ca -- ta, pec --
+	ca -- ta %15
+	mun -- di:
+	Mi -- se --
+	re -- re, mi -- se --
+	re -- re no --
+	bis. %20
+
+	Mi -- se -- %26
+	re -- re
+	no -- bis,
+	mi -- se -- re -- re
+	no -- bis, %30
+	mi -- se --
+	re -- re, mi -- se --
+	re -- re no --
+	bis. A -- gnus
+	De -- i, qui %35
+	tol -- lis, qui
+	tol -- lis pec --
+	ca -- ta, qui
+	tol -- lis pec -- ca -- ta,
+	mun -- di: __ %40
+	Do -- na
+	no -- bis
+	pa --
+	cem.
+
+	Pa -- %47
+	_ _ _
+	cem, pa --
+	%50
+	cem,
+	do -- na
+	no -- bis __
+	pa --
+	cem, do -- na %55
+	no -- bis
+	pa -- cem,
+	pa --
+	cem,
+	%60
+	pa --
+	_ _ _
+	cem, pa --
+	_
+	cem, %65
+	pa --
+	cem, do -- na
+	no -- bis
+	pa -- _
+	_ %70
+	cem,
+	pa --
+	cem,
+	pa --
+	cem, %75
+	pa --
+	cem, pa --
+
+	cem, do -- na
+	no -- bis %80
+	pa --
+	cem,
+
+	do -- na %87
+	no --
+	bis
+	pa -- %90
+	cem, pa --
+	_
+	cem,
+
+	pa -- %95
+	_ _ _
+	cem,
+	do --
+	na __
+	no -- %100
+	bis
+	pa --
+	cem, do -- na
+	no -- bis pa --
+	cem, %105
+
+	da
+	pa --
+	cem,
+	%110
+	da
+	pa --
+	cem. %113 FINIS
+}

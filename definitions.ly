@@ -601,6 +601,8 @@ tempoSanctus = \tempoMarkup "Poco adagio"
 	tempoPleni = \tempoMarkup "Allegro"
 tempoBenedictus = \tempoMarkup "Un poco lento"
 	tempoOsanna = \tempoMarkup "Allegro"
+tempoAgnusDei = \tempoMarkup "Lento"
+	tempoDona = \tempoMarkup "Allegro"
 
 
 

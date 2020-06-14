@@ -597,3 +597,127 @@ BenedictusViolinoII = {
 		e\fermata \bar "|." %87 finis
 	}
 }
+
+AgnusDeiViolinoII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key e \minor \time 2/4 \tempoAgnusDei
+		g'8.(\mf fis16) e( dis e fis)
+		g16.( h32) g8-! r16 g( h g)
+		\appoggiatura g fis8 e4( dis8)
+		e32( g16.) e32([ h'16.)] g32( e'16.) h32([ g'16.)]
+		\appoggiatura g,16 fis8 e4( dis8) %5
+		e8 h h r
+		e16\sf e8 e e e16
+		dis4 r
+		e16\sf e8 e e e16
+		dis8-! fis\p fis r %10
+		g8.( fis16) e( dis e fis)
+		g16.( h32) g8-! r16 g( h g)
+		\appoggiatura g fis8 e4( dis8)
+		e16.( fis32) g8-! r16 g( h g)
+		\appoggiatura g fis8 e4( dis8) %15
+		e8 h h r
+		e16\sf e8 e e e16
+		dis8 dis r dis-!
+		e16\sf e8 e e e16
+		dis8-! fis-! fis-! r %20
+		g8.(\p fis16) e( dis e fis)
+		g16.( h32) g8-! r16 g( h g)
+		\appoggiatura g fis8 e4( dis8)
+		e16.( fis32) g8-! r16 g( h g)
+		\appoggiatura g fis8 e4( dis8) %25
+		e4 e'8-!\f e-!
+		f f f f
+		e e e e
+		d d d d
+		c c c c %30
+		r16 h-! h'( h,) r h-! h'( h,)
+		r h-! h'( h,) r a-! a'( a,)
+		r a-! a'( a,) g!( e) e'( g,)
+		fis4 r16 dis'-!\p dis-! dis-!
+		e16.(\f fis32) g8-! r16 g(\p fis e) %35
+		dis16.( e32) fis8-! r16 fis( e dis)
+		e16.(\f fis32) g8-! r16 g(\p fis e)
+		dis16.( e32) fis8-! r16 fis( e dis)
+		e-! g,-! g-! g-! r-! gis-! gis-! gis-!
+		r a-! a-! a-! r a-! a-! a-! %40
+		r c-! c-! c-! h-! h-! a-! a-!
+		g-! e'-! e-! e-! c-! c-! a-! a-!
+		g\f-! g-! g-! g-! fis-! fis-! fis-! fis-!
+		e4 gis,8-!\p gis-!
+		a-! a-! a-! a-! \noBreak %45
+		gis2\fermata \bar "||"
+		\key c \major \time 2/2 \tempoDona \newSpacingSection
+			r2 c'~\fE \noBreak
+		c4 h8 a g4 f
+		e2 g~
+		g g-! %50
+		g-! e'4 d
+		c2 c~
+		c h-!
+		a2. a4
+		h2 g~ %55
+		g4 fis8 e d4 c
+		h2 g''~
+		g fis
+		g h,
+		c1 %60
+		d4 g, g'2~
+		g e
+		d d~
+		d c!~
+		c h %65
+		a1
+		g2 g
+		a d
+		g, c~
+		c h %70
+		r c
+		d e
+		f d
+		e fis
+		g e %75
+		fis gis
+		a c,
+		h1
+		a2 a'~
+		a g!~ %80
+		g f4 e
+		d a d2~
+		d c!
+		b1
+		a2 d~ %85
+		d c
+		h! r
+		c,2. c4
+		g'2 g
+		a h %90
+		c e
+		f1
+		g2 c,
+		d1
+		e2 r %95
+		r a~
+		a4 g8 f e4 d
+		c c, c'2~
+		c d~
+		d e~ %100
+		e f~
+		f g~
+		g4 e2 e4
+		f f d d
+		c2 e-!\p %105
+		f1
+		e2 f8\f e d c
+		d2 h
+		c g-!\p
+		a1 %110
+		g2 e'4\f e
+		f f d d
+		<c e>2 e8( d c d)
+		c2-! e8( d c d)
+		<c e,>2 q %115
+		q r\fermata \bar "|." %116 FINIS
+	}
+}

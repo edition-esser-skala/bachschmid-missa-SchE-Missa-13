@@ -1131,13 +1131,199 @@ BenedictusTenoreLyrics = \lyricmode {
 	sis. %87 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-%
-% 	}
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+AgnusDeiTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\twofourtime \key e \minor \time 2/4 \autoBeamOff \tempoAgnusDei
+		R2*16 %16
+		\mvTr e4.\fE^\tutti e8
+		dis dis r dis16 dis
+		e8 e e4
+		dis r %20
+		\mvTr h8.([\pE^\solo a16] g[ fis)] g([ a)]
+		h16.([ e32)] h8 r16 h([ e h)]
+		\appoggiatura h a8 g4 fis8
+		g16([ a)] h8 r16 h([ e h)]
+		\appoggiatura h a8( g4) fis8 %25
+		\tuplet 3/2 8 { g16([ fis e)] } e8 r4
+		\mvTr h'4.\fE^\tutti h8
+		c c r4
+		h8. h16 h8 h
+		a a r4 %30
+		r8 f'4 f8
+		e e e e
+		h h h4
+		h r
+		r r8 \mvTr g\pE^\solo %35
+		a16([ h)] c4 h16([ a)]
+		\appoggiatura a g8 g r g
+		a16([ h)] c4 h16([ a)]
+		\appoggiatura a g8 g r4
+		R2 %40
+		r8 a16 a h8 h
+		h h c8. c16
+		h8 h h4
+		h r
+		R2 \noBreak %45
+		R\fermataMarkup \bar "||"
+		\key c \major \time 2/2 \tempoDona \newSpacingSection
+			R1*2
+		r2 \mvTr e4\fE^\tutti e
+		d2 h %50
+		c c
+		c2. c4
+		c2 h
+		a1
+		g2 g'~ %55
+		g4 fis8[ e] d4 c
+		h2 h(
+		c1)
+		d2 g,
+		a1 %60
+		h2 d
+		e1
+		d2 r
+		r c!4 c
+		d2 d %65
+		e( d)
+		d r
+		R1*2
+		d2. d4 %70
+		g,2 c
+		d( e)
+		f d
+		e( fis)
+		g e %75
+		fis( gis)
+		a r
+		f!( e)
+		e r
+		R1*2 %81
+		d2. d4
+		d2 c!
+		b1
+		a2 d~ %85
+		d c
+		h! r
+		R1*3 %90
+		r2 e(
+		f f,)
+		g c
+		d1
+		e4 d c h %95
+		a1
+		h2 r
+		c g
+		a2. a4
+		h1 %100
+		c
+		d
+		e2 c4 c
+		d d h2
+		c r %105
+		R1
+		r2 e
+		d( h)
+		c r
+		R1 %110
+		r2 e
+		f( d)
+		e r
+		R1*2 %115
+		R1\fermataMarkup \bar "|." %116 FINIS
+	}
+}
+
+AgnusDeiTenoreLyrics = \lyricmode {
+	Mi -- se -- %17
+	re -- re, mi -- se --
+	re -- re no --
+	bis. %20
+	A -- gnus
+	De -- i, qui __
+	tol -- lis pec --
+	ca -- ta, pec --
+	ca -- ta %25
+	mun -- di:
+	Mi -- se --
+	re -- re,
+	mi -- se -- re -- re
+	no -- bis, %30
+	mi -- se --
+	re -- re, mi -- se --
+	re -- re no --
+	bis.
+	%35
+	qui
+	tol -- lis pec --
+	ca -- ta, qui
+	tol -- lis pec --
+	ca -- ta
+	%40
+	Do -- na no -- bis
+	pa -- cem, do -- na
+	no -- bis pa --
+	cem.
+
+	Do -- na %49
+	no -- bis %50
+	pa -- cem,
+	do -- na
+	no -- bis
+	pa --
+	cem, pa -- %55
+	_ _ _
+	cem, pa --
+
+	cem, pa --
+	_ %60
+	_ _
+	_
+	cem,
+	do -- na
+	no -- bis %65
+	pa --
+	cem,
+
+	do -- na %70
+	no -- bis
+	pa --
+	cem, da
+	pa --
+	cem, da %75
+	pa --
+	cem,
+	pa --
+	cem,
+
+	do -- na %82
+	no -- bis
+	pa --
+	cem, pa -- %85
+	_
+	cem,
+
+	pa -- %91
+
+	cem, pa --
+	_
+	_ _ _ _ %95
+	_
+	cem,
+	do -- na
+	no -- bis
+	pa -- %100
+	_
+	_
+	cem, do -- na
+	no -- bis pa --
+	cem, %105
+
+	da
+	pa --
+	cem,
+	%110
+	da
+	pa --
+	cem. %113 FINIS
+}

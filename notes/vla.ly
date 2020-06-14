@@ -597,3 +597,126 @@ BenedictusViola = {
 		c\fermata \bar "|." %87 finis
 	}
 }
+
+AgnusDeiViola = {
+	\relative c' {
+		\clef alto
+		\twofourtime \key e \minor \time 2/4 \tempoAgnusDei
+		e8\mf e e e
+		e e e r
+		a,4 h
+		e g,
+		a h %5
+		e8 g, g r
+		c16\sf c8 c c c16
+		h4 r
+		c16\sf c8 c c c16
+		h8-! h\p h r %10
+		e e e e
+		e e e r
+		a,4 h
+		e g,
+		a h %15
+		e8 g, g r
+		c16\sf c8 c c c16
+		h8 h r h-!
+		e16\sf e8 e16 c c8 c16
+		h8-! h-! h-! r %20
+		e\p e e e
+		e e e r
+		a,4 h
+		e g,
+		a h %25
+		e, r
+		gis'8\f gis gis gis
+		a a a a
+		e e e e
+		f f f f %30
+		d d d d
+		c c c c
+		h h h h
+		h h h[\p h]
+		h h h h %35
+		h h h h
+		h h h h
+		h h h h
+		e r e r
+		a r a r %40
+		dis, r dis r
+		e r a, r
+		h\f h h h
+		e,4 e8-!\p e-!
+		e-! e-! e-! e-! \noBreak %45
+		e2\fermata \bar "||"
+		\key c \major \time 2/2 \tempoDona \newSpacingSection
+			c'1\fE \noBreak
+		d
+		c2 c'~
+		c4 h8 a g4 f %50
+		e2 c'4 h
+		a h a g
+		fis d g2~
+		g fis
+		g g4 g %55
+		a2 a
+		h4 a g2
+		a1
+		d,2 g
+		a1 %60
+		h2 d,
+		e cis
+		d d
+		e1
+		d2 d %65
+		e d
+		d r
+		R1
+		r2 g
+		f1 %70
+		e2 c'~
+		c4 b8 a b4 g
+		a f d'2~
+		d4 c8 h! c4 a
+		h g e'2~ %75
+		e4 d8 c d4 h
+		c a e c
+		d2 e
+		a, r
+		R1*2 %81
+		a'2. a4
+		g2 e
+		e2. e4
+		f e f g %85
+		a2 a
+		d, r
+		R1
+		d'2. d4
+		c2 d %90
+		g, c~
+		c4 h8 a g4 f
+		e d e c
+		g'2. g4
+		g2 c %95
+		a a,
+		h2. h4
+		c4 e2 d8 e
+		f4 f, f' e8 f
+		g4 g, g' f8 g %100
+		a4 a, a' g8 a
+		h4 h, h' a8 h
+		c4 c a a
+		a a g g
+		r g e-!\p c-! %105
+		f-! g-! a-! h-!
+		c2-! g4\f g
+		a2 g
+		r4 g,-!\p e-! c-!
+		f-! g-! a-! h-! %110
+		c2-! g'4\f g
+		a a g g
+		g2 r
+		<g g,> r
+		q q %115
+		q r\fermata \bar "|." %116 FINIS
+	}
+}

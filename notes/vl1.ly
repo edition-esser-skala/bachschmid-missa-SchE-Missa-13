@@ -598,9 +598,123 @@ BenedictusViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
+AgnusDeiViolinoI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key e \minor \time 2/4 \tempoAgnusDei
+		h'8.(\mf a16) g( fis g a)
+		h16.( e32) h8-! r16 h( e h)
+		\appoggiatura h a8 g4( fis8)
+		g32( h16.) g32[( e'16.)] h32( g'16.) e32([ h'16.)]
+		\appoggiatura h,16 a8 g4( fis8) %5
+		g32( fis e fis) e8-! r e'32( dis e fis)
+		g8-! ais,4\sf ais8(
+		h16) h'(\p ais h) a( h) a( fis)
+		\appoggiatura fis g8 ais,4\sf ais8
+		ais16( h) h,8-! r4 %10
+		h'8.(\p a16) g( fis g a)
+		h16.( e32) h8-! r16 h( e h)
+		\appoggiatura h a8 g4( fis8)
+		g16.( a32) h8-! r16 h( e h)
+		\appoggiatura h a8 g4( fis8) %15
+		\tuplet 3/2 8 { g16( fis e) } e8-! r e'32( dis e fis)
+		g8-! ais,4\sf ais8(
+		h16) h'(\p ais h) a( h) \once \slurDashed a( fis)
+		g\sf g g g ais, ais ais ais
+		ais( h) h,8 r4 %20
+		\once \slurDashed h'8.(\p a16) g( fis g a)
+		h16.( e32) h8-! r16 h( e h)
+		\appoggiatura h a8 g4( fis8)
+		g16.( a32) h8-! r16 h( e h)
+		\appoggiatura h a8 g4( fis8) %25
+		\tuplet 3/2 8 { g16( fis e) } e8-! r4
+		r16 d'-!\f h'( d,) r d-! h'( d,)
+		r c-! a'( c,) r c-! a'( c,)
+		r h-! gis'( h,) r h-! gis'( h,)
+		r a-! a'( a,) r a-! a'( a,) %30
+		f' f8 f f f16
+		e e8 e e e16
+		dis8 dis e e
+		dis4 r16 fis-!\p fis-! fis-!
+		g16.(\f a32) h8-! r16 h(\p a g) %35
+		fis16.( g32) a8-! r16 a( g fis)
+		g16.(\f a32) h8-! r16 h(\p a g)
+		fis16.( g32) a8-! r16 a( g fis)
+		r e-! e-! e-! r e-! e-! e-!
+		r e-! e-! e-! r e-! e-! e-! %40
+		r fis!-! fis-! fis-! r fis-! fis-! fis-!
+		r g-! g-! g-! a-! a-! fis-! fis-!
+		e-!\f e-! e-! e-! dis-! dis-! dis-! dis-!
+		e8-! h,[-!\p h-! h-!]
+		c-! c-! c-! c-! \noBreak %45
+		h2\fermata \bar "||"
+		\key c \major \time 2/2 \tempoDona \newSpacingSection
+			e'1\fE \noBreak
+		f
+		g2 e
+		d1 %50
+		e2 r
+		e2. e4
+		a,2 h4 c
+		d1~
+		d2 h %55
+		c1
+		d2 h'
+		c,2. d8 c
+		h2 r
+		R1 %60
+		r2 d'~
+		d4 c8 h a4 g
+		fis2 fis
+		g1
+		a2 g %65
+		c1
+		h2 g~
+		g f!~
+		f e
+		d1 %70
+		g,2 e'
+		f g
+		c, fis
+		g a
+		d, gis %75
+		a h
+		a a~
+		a gis
+		a a,
+		b1 %80
+		a~
+		a2 r
+		R1*4 %86
+		g2. g4
+		c1
+		h
+		f' %90
+		e2 c'~
+		c h
+		c r
+		R1
+		r2 g~ %95
+		g4 f8 e d4 c
+		h2 r4 g
+		g'2. f8 g
+		a2. g8 a
+		h2. a8 h %100
+		c2. h8 c
+		d2 h
+		c c4 c
+		d d h2
+		c g-!\p %105
+		a1
+		g2 a8\f g f e
+		f2 d
+		r e-!\p
+		f1 %110
+		e2 c'4\f c
+		d d h h
+		c2 g8( f e f)
+		e2-! g8( f e f)
+		<e c>2 q %115
+		q r\fermata \bar "|." %116 finis
+	}
+}

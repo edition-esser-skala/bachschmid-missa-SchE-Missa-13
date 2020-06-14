@@ -119,3 +119,58 @@ BenedictusClarinoI = {
 		g\fermata \bar "|." %87 finis
 	}
 }
+
+AgnusDeiClarinoI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key c \major \time 2/4 \tempoAgnusDei
+		R2*45 \noBreak %45
+		R2\fermataMarkup \bar "||"
+		\time 2/2 \tempoDona R1*2
+		r2 e'\fE
+		d1 %50
+		e2 r
+		R1*5 %56
+		r2 g~
+		g fis
+		g r
+		R1*4 %63
+		r2 g
+		a g %65
+		a1
+		g2 r
+		R1
+		g
+		f %70
+		e2 r
+		R1*13 %84
+		r2 f~ %85
+		f e
+		d r
+		R1*3 %90
+		g1
+		f
+		e2 r
+		R1*3 %96
+		g2 g
+		g1
+		a
+		h %100
+		c
+		d
+		c2 r
+		a g
+		g r %105
+		R1
+		r2 g
+		f d
+		e r
+		R1 %110
+		r2 g
+		a g
+		g r
+		g r
+		g g %115
+		g r\fermata \bar "|." %116 FINIS
+	}
+}
