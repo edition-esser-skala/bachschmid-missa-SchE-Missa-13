@@ -56,42 +56,35 @@ KyrieBassoNotes = {
 		f4 d b
 		es c as
 		d h g
-		c4 r r
-		r8 c16 c d8([ es)] f([ g)] %60
-		as4 g r
-		r8 c,16 c d8([ es)] f([ g)]
-		as4 f r8 d
-		g4 es r8 c
-		f4( d h) %65
 		c8 c c'[ g as e]
-		f[ d es h c as]
+		f[ d es h c as] %60
 		g2 r4
 		g'2\p g4
-		g2 g4 %70
 		g2 g4
-		as4.\f as8 as as
+		g2 g4
+		as4.\f as8 as as %65
 		g4( f) es8. es16
 		f4 g r
-		g( h) c %75
 		g( h) c
-		g h c
+		g( h) c
+		g h c %70
 		g g r
 		c,8.\p c16 c4 r
-		g'8. g16 g4 r %80
+		g'8. g16 g4 r
 		c,8. c16 c4 r8 c
-		g'4 g, r
+		g'4 g, r %75
 		c4.\f c8 c c
 		f4-! d-! r8 d
-		es4-\parenthesize-! h-\parenthesize-! r8 h %85
+		es4-\parenthesize-! h-\parenthesize-! r8 h
 		c4-\parenthesize-! g-\parenthesize-! r
-		es'4. es8 es4
+		es'4. es8 es4 %80
 		f4. f8 f4
 		g g( g,)
-		as r r %90
-		f' g( g,)
 		as r r
 		f' g( g,)
-		c r r\fermata \bar "|." %94 finis
+		as r r %85
+		f' g( g,)
+		c r r\fermata \bar "|." %87 finis
 	}
 }
 
@@ -143,42 +136,35 @@ KyrieBassoLyrics = \lyricmode {
 	lei -- _ _
 	_ _ _
 	_ _ _
-	son,
-	Ky -- ri -- e e -- %60
-	lei -- son,
-	Ky -- ri -- e e --
-	lei -- son, e --
-	lei -- son, e --
-	lei -- %65
 	son, e -- lei --
-	_
+	_ %60
 	son,
 	Ky -- ri --
-	e e -- %70
+	e e --
 	lei -- son,
-	Ky -- ri -- e e --
+	Ky -- ri -- e e -- %65
 	lei -- son, e --
 	lei -- son,
-	Ky -- ri -- %75
+	Ky -- ri --
 	e __ e --
-	lei -- son, e --
+	lei -- son, e -- %70
 	lei -- son,
 	Ky -- ri -- e,
+	Ky -- ri -- e,
+	Ky -- ri -- e e --
+	lei -- son, %75
+	Ky -- ri -- e e --
+	lei -- son, e --
+	lei -- son, e --
+	lei -- son,
 	Ky -- ri -- e, %80
-	Ky -- ri -- e e --
-	lei -- son,
-	Ky -- ri -- e e --
-	lei -- son, e --
-	lei -- son, e -- %85
-	lei -- son,
-	Ky -- ri -- e,
 	Ky -- ri -- e
-	e -- lei --
-	son, %90
 	e -- lei --
 	son,
 	e -- lei --
-	son. %94 finis
+	son, %85
+	e -- lei --
+	son. %87 finis
 }
 
 GloriaBassoNotes = {

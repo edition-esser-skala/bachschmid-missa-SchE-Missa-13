@@ -66,42 +66,35 @@ KyrieViola = {
 		f f d d b b
 		es es c c as as
 		d d h h g g
-		c4 r r
-		r8 c-! d-! es-! f-! g-! %60
-		as4-! g-! r
-		r8 c,-! d-! es-! f-! g-!
-		as-! as-! f f d d
-		h h c c g' g
-		as as f f d d %65
 		r c-! c'-! g( as) e(
-		f) d( es) h( c) as(
+		f) d( es) h( c) as( %60
 		\scriptOut g4-!) r8 es'-!\p es( f)
 		es( d) r d-! d( es)
-		d( c) r c'-! c-! c-! %70
+		d( c) r c'-! c-! c-!
 		h4-! h,8-! h'-! h-! h-!
-		c\ff fis, fis fis c c
+		c\ff fis, fis fis c c %65
 		d d f f es es
 		f f g g g, g
-		r h'-! d-! h-! c-! es,-! %75
+		r h'-! d-! h-! c-! es,-!
 		d-! h'-! d-! h-! c-! es,-!
-		d-! h'-! d-! h-! c-! es,-!
+		d-! h'-! d-! h-! c-! es,-! %70
 		d8. c16 h4-! r
 		r4 r8 c'(-.\p c-. c-.)
-		r4 r8 h(-. h-. h-.) %80
-		r4 r8 c,(-. c-. c-.)
 		r4 r8 h(-. h-. h-.)
+		r4 r8 c,(-. c-. c-.)
+		r4 r8 h(-. h-. h-.) %75
 		c\f c c c c c
 		f f d d h h
-		g g g g g g %85
+		g g g g g g
 		c4-! g-! r
-		es'8\ff g g g g g
+		es'8\ff g g g g g %80
 		c, as' as as as as
 		g g g g g, g
-		as4 r r %90
-		f'8 f g g g, g
 		as4 r r
 		f'8 f g g g, g
-		c2 r4\fermata \bar "|." %94 finis
+		as4 r r %85
+		f'8 f g g g, g
+		c2 r4\fermata \bar "|." %87 finis
 	}
 }
 

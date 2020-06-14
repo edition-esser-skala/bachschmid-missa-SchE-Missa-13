@@ -71,41 +71,34 @@ KyrieSopranoNotes = {
 		f4 es2~
 		es4 d2
 		c4 r r
-		r r8 c([ d es] %60
-		f8.) f16 es4 r
-		r r8 c([ d es)]
-		f4 f r8 f
-		d4 es r8 es
-		c4( d2) %65
-		g,4 r r
-		r8 d' es([ h c fis,)]
+		r8 d es([ h c fis,)] %60
 		g4 r r
 		f'8.\p f16 f4 r
-		es8. es16 es4 r %70
+		es8. es16 es4 r
 		d8. d16 d4 r
-		c4.\f c8 c c
+		c4.\f c8 c c %65
 		h2 c4
 		f8([ es16 d)] c4 h
-		r f' es %75
+		r f' es
 		d2 c4
-		f f es
+		f f es %70
 		d d r
 		es8.\p es16 es4 r
-		d8. d16 d4 r %80
+		d8. d16 d4 r
 		c8. c16 c4 r8 c
-		h4 h r
+		h4 h r %75
 		g4.\f g8 g g
 		as4-! h-! r8 h
-		c4-! d-! r8 d %85
+		c4-! d-! r8 d
 		es4-! f-! r
-		es4. es8 es4
+		es4. es8 es4 %80
 		d4. d8 d4
 		es es( d)
-		c r r %90
-		d^\critnote c( h)
 		c r r
+		d^\critnote c( h)
+		c r r %85
 		f es( d)
-		c r r\fermata \bar "|." %94 finis
+		c r r\fermata \bar "|." %87 finis
 	}
 }
 
@@ -161,41 +154,34 @@ KyrieSopranoLyrics = \lyricmode {
 	_
 	_
 	son,
-	Ky -- %60
-	ri -- e
-	e --
-	lei -- son, e --
-	lei -- son, e --
-	lei -- %65
-	son,
-	e -- lei --
+	e -- lei -- %60
 	son,
 	Ky -- ri -- e,
-	Ky -- ri -- e, %70
 	Ky -- ri -- e,
-	Ky -- ri -- e e --
+	Ky -- ri -- e,
+	Ky -- ri -- e e -- %65
 	lei -- son,
 	e -- lei -- son,
-	Ky -- ri -- %75
+	Ky -- ri --
 	e e --
-	lei -- son, e --
+	lei -- son, e -- %70
 	lei -- son,
 	Ky -- ri -- e,
+	Ky -- ri -- e,
+	Ky -- ri -- e e --
+	lei -- son, %75
+	Ky -- ri -- e e --
+	lei -- son, e --
+	lei -- son, e --
+	lei -- son,
 	Ky -- ri -- e, %80
-	Ky -- ri -- e e --
-	lei -- son,
-	Ky -- ri -- e e --
-	lei -- son, e --
-	lei -- son, e -- %85
-	lei -- son,
-	Ky -- ri -- e,
 	Ky -- ri -- e
-	e -- lei --
-	son, %90
 	e -- lei --
 	son,
 	e -- lei --
-	son. %94 finis
+	son, %85
+	e -- lei --
+	son. %87 finis
 }
 
 GloriaSopranoNotes = {

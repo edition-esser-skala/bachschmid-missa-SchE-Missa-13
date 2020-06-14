@@ -66,42 +66,35 @@ KyrieViolinoI = {
 		as as as as as as
 		g g g g g g
 		f f f f f f
-		es c-! d-! es-! f-! g-!
-		as4-! g-! r %60
-		r8 c,-! d-! es-! f-! g-!
-		as4-! g-! r
-		c,8\sf-! as'[ as as as as]
-		h,\sf-! g'[ g g g g]
-		as,\sf-! f'[ f f f f] %65
 		es4 r8 g( as) e(
-		f) d( es) h( c) fis,(
+		f) d( es) h( c) fis,( %60
 		g) g'[-!\p g-! g]-! g( as)
 		r f-! f-! f-! f([ g)]
-		r es-! es-! es-! es([ f)] %70
+		r es-! es-! es-! es([ f)]
 		r d-! d-! d-! d([ es)]
-		r c'-!\ff c-! c-! c-! c-!
+		r c'-!\ff c-! c-! c-! c-! %65
 		h4.\trill a16 h c8. g16
 		\appoggiatura b as8 g16 f es4 d
-		g2.-! %75
+		g2.-!
 		g-!
-		g-!
+		g-! %70
 		g4-! g-! r
 		r r8 es(-.\p es-. es-.)
-		r4 r8 d(-. d-. d-.) %80
+		r4 r8 d(-. d-. d-.)
 		r4 r8 g(-. g-. g-.)
-		r4 r8 g(-. g-. g-.)
+		r4 r8 g(-. g-. g-.) %75
 		g,4.(\f c8) g4-!
 		as-! h-! r8 r16 g-!
-		c4-! d-! r8 r16 g,-! %85
+		c4-! d-! r8 r16 g,-!
 		es'4-! f-! r
-		g16(\ff es) d-! c-! h( c) h( c) h( c) h( c)
+		g16(\ff es) d-! c-! h( c) h( c) h( c) h( c) %80
 		as'( f) es-! d-! c( d es d) c( d es d)
 		es8 g16 es c8 es16 c h8 d16 h
-		\appoggiatura h8 c4 r16 c(\p h c d c h c) %90
+		\appoggiatura h8 c4 r16 c(\p h c d c h c)
 		\appoggiatura b'!16 as8\f g16 f es4 d
-		c4 r16 c(\p h c d c h c)
+		c4 r16 c(\p h c d c h c) %85
 		\appoggiatura b'!16 as8\f g16 f es8 es d d
-		c4 c, r\fermata \bar "|." %94 finis
+		c4 c, r\fermata \bar "|." %87 finis
 	}
 }
 

@@ -99,7 +99,7 @@ BenedictusClarinoII = {
 		d2 g,
 		c r
 		R1
-		r2 d~
+		r2 d
 		g, c %55
 		d g,
 		c r

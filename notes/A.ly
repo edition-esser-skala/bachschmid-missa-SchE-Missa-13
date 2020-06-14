@@ -70,42 +70,35 @@ KyrieAltoNotes = {
 		as4. as8 as as
 		g4 g g
 		f2.
-		es8 c16 c d8([ es)] f([ g)]
-		as4 g r %60
-		r8 c,16 c d8([ es)] f[( g)]
-		as4 g r
-		as4. as8 as as
-		g4 g g
-		f2. %65
 		es4 r r8 g
-		as([ f g d es c)]
+		as([ f g d es c)] %60
 		d4 g8.\p g16 g8 as
 		g f r f f g
-		g4 r8 c c c %70
+		g4 r8 c c c
 		h4 r8 g g g
-		fis4\f fis8 fis fis fis
+		fis4\f fis8 fis fis fis %65
 		f4( g) g
 		as8([ g16 f)] es4 d
-		g4. g8 g4 %75
 		g4. g8 g4
-		g4. g8 g g
+		g4. g8 g4
+		g4. g8 g g %70
 		g4 g r
 		g8.\p g16 g4 r
-		f8. f16 f4 r %80
+		f8. f16 f4 r
 		es8. es16 es4 r8 es
-		d4 d r
+		d4 d r %75
 		es4.\f es8 es es
 		f4-! f-! r8 f
-		g4-! g-! r8 g %85
+		g4-! g-! r8 g
 		g4-\parenthesize-! g-\parenthesize-! r
-		g4. g8 g4
+		g4. g8 g4 %80
 		as4. as8 as4
 		g g4.( f8)
-		es4 r r %90
-		as4 g4.( f8)
 		es4 r r
+		as4 g4.( f8)
+		es4 r r %85
 		as g4.( g8)
-		g4 r r\fermata \bar "|." %94 finis
+		g4 r r\fermata \bar "|." %87 finis
 	}
 }
 
@@ -160,42 +153,35 @@ KyrieAltoLyrics = \lyricmode {
 	Ky -- ri -- e e --
 	lei -- son, e --
 	lei --
-	son, Ky -- ri -- e e --
-	lei -- son, %60
-	Ky -- ri -- e e --
-	lei -- son,
-	Ky -- ri -- e e --
-	lei -- son, e --
-	lei -- %65
 	son, e --
-	lei --
+	lei -- %60
 	son, Ky -- ri -- e e --
 	lei -- son, e -- le -- i --
-	son, e -- le -- i -- %70
 	son, e -- le -- i --
-	son, Ky -- ri -- e e --
+	son, e -- le -- i --
+	son, Ky -- ri -- e e -- %65
 	lei -- son,
 	e -- lei -- son,
-	Ky -- ri -- e, %75
 	Ky -- ri -- e,
-	Ky -- ri -- e e --
+	Ky -- ri -- e,
+	Ky -- ri -- e e -- %70
 	lei -- son,
 	Ky -- ri -- e,
-	Ky -- ri -- e, %80
+	Ky -- ri -- e,
 	Ky -- ri -- e e --
-	lei -- son,
+	lei -- son, %75
 	Ky -- ri -- e e --
 	lei -- son, e --
-	lei -- son, e -- %85
+	lei -- son, e --
 	lei -- son,
-	Ky -- ri -- e,
+	Ky -- ri -- e, %80
 	Ky -- ri -- e
-	e -- lei --
-	son, %90
 	e -- lei --
 	son,
 	e -- lei --
-	son. %94 finis
+	son, %85
+	e -- lei --
+	son. %87 finis
 }
 
 GloriaAltoNotes = {

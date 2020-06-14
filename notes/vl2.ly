@@ -66,42 +66,35 @@ KyrieViolinoII = {
 		c c f f f f
 		f f es es es es
 		es es d d d d
-		es,4 r8 c'-! d-! es-!
-		f4-! es8-! c,-! d-! es-! %60
-		f4-! es8-! c'-! d-! es-!
-		f4-! es8-! c,-! d-! es-!
-		f-!\sf f'[ f f f f]
-		d-!\sf d[ es es es es]
-		c-!\sf c[ d d d d] %65
 		g,4 r8 g'( as) e(
-		f) d( es) h( c) \once \slurDashed c,(
+		f) d( es) h( c) \once \slurDashed c,( %60
 		h4) r8 c'\p-! c-! c-!
 		c( d) r h-! h-! h-!
-		h( c) r g-! g( as) %70
+		h( c) r g-! g( as)
 		g( f) r f-! f( g)
-		es\ff es' es es fis fis
+		es\ff es' es es fis fis %65
 		f f d d es g
 		\appoggiatura g16 f8 es16 d c4 h
-		r8 g-! f'-! d-! es-! c-! %75
+		r8 g-! f'-! d-! es-! c-!
 		r g-! f'-! d-! es-! c-!
-		r g-! f'-! d-! es-! c-!
+		r g-! f'-! d-! es-! c-! %70
 		h8.( c32 d) g,4-! r
 		r r8 g'(-.\p g-. g-.)
-		r4 r8 g(-. g-. g-.) %80
+		r4 r8 g(-. g-. g-.)
 		r4 r8 es(-. es-. es-.)
-		r4 r8 d(-. d-. d-.)
+		r4 r8 d(-. d-. d-.) %75
 		es-!\f es,-! es-! es-! es-! es-!
 		c8.-! d32-! es-! f4-! f'-!
-		es8.-! d32-! c-! g'4-! g,-! %85
+		es8.-! d32-! c-! g'4-! g,-!
 		c8.(\trill h32 c) d4-! r
-		g16(\ff es) d-! c-! h( c) h( c) h( c) h( c)
+		g16(\ff es) d-! c-! h( c) h( c) h( c) h( c) %80
 		as'( f) es-! d-! c( d es d) c( d es d)
 		c8 c es, es d d
-		\appoggiatura d c4 r r %90
+		\appoggiatura d c4 r r
 		\appoggiatura g''16 f8 es16 d c4 h
-		c r r
+		c r r %85
 		\appoggiatura g'16 f8 es16 d c4 h
-		c c, r\fermata \bar "|." %94 finis
+		c c, r\fermata \bar "|." %87 finis
 	}
 }
 
@@ -497,7 +490,7 @@ SanctusViolinoII = {
 		c4-! r8 a-! g-! f-!
 		e-! a-! g-! f-! e-! d-! %25
 		e( c') e( f) g( e)
-		f( a) e8 f) g( e)
+		f( a) e( f) g( e)
 		f4-! f-! f-!
 		f-! f-! f-!
 		e2.\fermata \bar "|." %30 finis

@@ -33,20 +33,20 @@
        (stretchability . 0))
 
 	top-system-spacing =
-    #'((basic-distance . 20)
-       (minimum-distance . 20)
+    #'((basic-distance . 14)
+       (minimum-distance . 14)
        (padding . -100)
        (stretchability . 0))
 
 	top-markup-spacing =
-    #'((basic-distance . 5)
-       (minimum-distance . 5)
+    #'((basic-distance . 4)
+       (minimum-distance . 4)
        (padding . -100)
        (stretchability . 0))
 
 	markup-system-spacing =
-    #'((basic-distance . 15)
-       (minimum-distance . 15)
+    #'((basic-distance . 10)
+       (minimum-distance . 10)
        (padding . -100)
        (stretchability . 0))
 

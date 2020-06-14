@@ -66,42 +66,35 @@ KyrieOrgano = {
 		f4 d b
 		es c as
 		d h g
-		c r r
-		r8 c d es f g %60
-		as4 g r
-		r8 c, d es f g
-		as4 f d
-		g es c
-		f d h %65
 		c c'8 g( as) e(
-		f) d( es) h( c) as(
+		f) d( es) h( c) as( %60
 		\mvTr g2.)~\p-\tasto
 		g~
-		g~ %70
+		g~
 		g
-		as8\ff as as as as as
+		as8\ff as as as as as %65
 		g g f' f es es
 		f4 g g,
-		g' h c %75
+		g' h c
 		g h c
-		g h c
+		g h c %70
 		g g r
 		c,\p r r
-		g' r r %80
+		g' r r
 		c, r r
-		g r r
+		g r r %75
 		c8\f c c c c c
 		f f d d d d
-		es es h h h h %85
+		es es h h h h
 		c4-! g! r
-		es'8\ff es es es es es
+		es'8\ff es es es es es %80
 		f f f f f f
 		g g g g g, g
-		as4 r r %90
-		f'8 f g g g, g
 		as4 r r
 		f'8 f g g g, g
-		c2 r4\fermata \bar "|." %94 finis
+		as4 r r %85
+		f'8 f g g g, g
+		c2 r4\fermata \bar "|." %87 finis
 	}
 }
 
@@ -165,41 +158,34 @@ KyrieBassFigures = \figuremode {
 	<9> \bo <[6 5]> \bc <[\t \t]>
 	<9> \bo <[6 5]> \bc <[\t \t]>
 	r2.
-	r8 <6> <6!> <6> q q %60
-	q4 q2
-	r8 <6> <6!> <6> q q
-	q4 q <5>
-	<_!> <6>2
-	<5>4 <6!> <6> %65
-	r2.
+	r %60
 	r
 	r
 	r
-	r %70
 	r
-	<6\\>
+	<6\\> %65
 	<7! _!>4 <4! 2> <6>
 	q <6 4> <5 _!>
-	<_!> <6 5>2 %75
+	<_!> <6 5>2
 	<[7] _!>4 <6 5>2
-	<[7] _!>4 <6 5>2
+	<[7] _!>4 <6 5>2 %70
 	<5 _!>2.
 	r
-	<7 _!> %80
+	<7 _!>
 	r
-	<_!>
+	<_!> %75
 	r
 	r4 <6!>2
-	<6>4 q2 %85
+	<6>4 q2
 	r4 <7 _!>2
-	<6>2.
+	<6>2. %80
 	<6 5>
 	<6 4>2 <5 _!>4
-	<5 3>2. %90
-	<6>4 <6 4> <5_!>
 	<5 3>2.
+	<6>4 <6 4> <5_!>
+	<5 3>2. %85
 	<6>4 <6 4> <5 _!>
-	r2. %94 finis
+	r2. %87 finis
 }
 
 GloriaOrgano = {
