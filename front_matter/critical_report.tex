@@ -16,8 +16,8 @@
   pagenumberformat=\itshape
 ]{tocline}{part}
 \DeclareTOCStyleEntry[
-  indent=2em,
-  beforeskip=-\baselineskip,
+  indent=0pt,
+  beforeskip=0pt,
   entrynumberformat=\textcolor{oldred},
   numwidth=2em,
   linefill=\hfill,
@@ -138,10 +138,9 @@ if not (scores[last_arg] == nil) then
 end
 }
 
-% uncomment if the full score is in landscape format
-%\ifprintreport
-%\geometry{landscape,outer=127mm}
-%\fi
+\ifprintreport
+\geometry{landscape,outer=127mm}
+\fi
 
 \@ifundefined{lypdfname}{%
   \templatefalse
@@ -187,7 +186,7 @@ Front matter typeset with Source Sans Pro and Fredericka the Great.
 
 This edition bases upon a copy in the Universitätsbibliothek Eichstätt-Ingolstadt. The digital version of the manuscript is available at \url{https://nbn-resolving.org/urn:nbn:de:bvb:824-esl-ii-188-5} (siglum Esl II 188).
 
-In general, this edition closely follows the manuscript. Any changes that were introduced by the editor are indicated by italic type (lyrics, dynamics and directions), parentheses (expressive marks and bass figures) or dashes (slurs and ties). Accidentals are used according to modern conventions. Asterisks denote changes that are clarified in the detailed remarks below.\footnote{Abbreviations: A, alto; B, bass; b, basses; clno, clarion; Ms, manuscript; org, organ; r, rest; S, soprano; T,~tenor; timp, timpani; vl, violin; vla, viola.}
+In general, this edition closely follows the manuscript. Any changes that were introduced by the editor are indicated by italic type (lyrics, dynamics and directions), parentheses (expressive marks and bass figures) or dashes (slurs and ties). Accidentals are used according to modern conventions. Asterisks denote changes that are clarified in the detailed remarks below.\footnote{Abbreviations: A, alto; B, bass; b, basses; clno, clarion; Ms, manuscript; org, organ; r, rest; S, soprano; T,~tenor; timp,~timpani; vl, violin; vla, viola.}
 
 \bigskip
 
@@ -195,7 +194,7 @@ In general, this edition closely follows the manuscript. Any changes that were i
 	\toprule
 	\itshape Mov. & \itshape Bar & \itshape Staff & \itshape Note \\
 	\midrule \endhead
-	1 & 52–58  & –  & These bars have been later inserted and lack any articulation. The expressive marks shown have been added by the editor, based on the following bars. \\
+	1 & 52–58  & –  & This edition shows the revised version of these bars, \newline as given by a sheet that was later added to the Ms.\newline All expressive marks have been added by the editor. \\
 	  & 91     & S    & 1st quarter in Ms: f′4 \\
 	2 & 94     & vl 1 & 1st quarter in Ms: g″4 \\
 	3 & 159    & vl 2 & 1st half of bar in Ms: f′4–f′4 \\
