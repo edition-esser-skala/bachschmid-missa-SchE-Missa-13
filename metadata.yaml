@@ -1,17 +1,20 @@
-composer: Bachschmid, Anton Adam
-title: Missa in c minor
+composer:
+  last: Bachschmid
+  first: Anton Adam
+title: Missa in C minor
 id: SchE Missa 13
 genre: mass
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, vla, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  A1:
     siglum: D-Eu
     shelfmark: Esl II 188
-    type: autograph manuscript
     date: 1775
     rism: 450200682
     url: https://nbn-resolving.org/urn:nbn:de:bvb:824-esl-ii-188-5
-github: bachschmid-missa-SchE-Missa-13
+    license: CC BY-SA 4.0
+    principal: true
 imslp: Missa_in_C_minor,_SchE_Missa_13_(Bachschmid,_Anton_Adam)
-notes:
-
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
